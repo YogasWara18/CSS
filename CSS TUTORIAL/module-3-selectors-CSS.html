@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    
+    <h1>CSS SELECTORS</h1>
+    <p>Selector CSS memilih elemen HTML yang ingin adna beri gaya.</p>
+
+    <h2>CSS SELECTORS</h2>
+    <p>Selector CSS digunakan untuk "menemukan" ( atau memilih ) elemen HTML yang ingin anda beri gaya. <br>
+    Kita dapat membagi Selector CSS menjadi lima kategori : <br>
+        <ul>
+            <li>Selector sederhana ( pilih elemen berdasarkan nama, id, kelas )</li>
+            <li>Selector kombinator ( memilih elemen berdasarkan hubungan tertentu di antara elemen tersebut )</li>
+            <li>Selector kelas semu ( memilih elemen berdasarkan status tertentu )</li>
+            <li>Selector elemen semu ( memilih dan memberi gaya pada bagian suatu elemen )</li>
+            <li>Selector atribut ( memilih elemen berdasarkan atribut atau nilai atribut )</li>
+        </ul>
+    </p>
+
+    <h2>Selector Elemen CSS</h2>
+    <p>Selector elemen memilih elemen HTML berdasarkan nama elemen.</p>
+    <p>Contoh <br> 
+    Disini, semua elemen < p > pada halaman akan diratakan tengah, dengan warna teks merah : 
+    </p>
+    <pre> p {
+            text-align: center;
+            color: red;    
+    }</pre>
+
+    <h2>Selector ID CSS</h2>
+    <p>Selector ID menggunakan atribut ID dari elemen HTML untuk memilih elemen tertentu. <br>
+    ID suatu elemen bersifat unik dalam satu halaman, jadi selector ID digunakan untuk memilih satu elemen unik! <br>
+    Untuk memilih elemen dengan ID tertentu, tulis karaktr hash ( # ), diikuti dengan ID elemen.
+    </p>
+    <p>Contoh <br>
+    Aturan CSS dibawah ini akan diterapkan ke elemen HTML dengan id="para1":
+    </p>
+    <pre> #para1 {
+            text-align: center;
+            color: red;    
+    }
+    </pre>
+    <p style="background-color: bisque;"><b>Catatan :</b> Nama ID tidak dapat dimulai dengan angka</p>
+
+
+    <h2>Selector CLASS CSS</h2>
+    <p>Selector class memilih elemen HTML dengan atribut class tertentu. <br>
+    Untuk memilih elemen dengan class tertentu, tulis karakter titik ( . ), diikuti dengan nama class. <br>
+    Contoh <br>
+    Dalam contoh ini semua elemen HTML dengan class="center" akan bewarna merah dan rata tengah : <br>
+    <pre>.center {
+            text-align: center;
+            color: red;    
+    } </pre>
+    <br>
+    Anda juga dapat menentukan bahwa hanya elemen HTML tertentu yang akan dipengaruhi oleh suatu class
+    <br>
+    Contoh <br>
+    Dalam contoh ini, hanya elemen < p > dengan class="center" yang akan bewarna merah dan rata tengah : <br>
+    <pre> p.center {
+            text-align: center;
+            color; red;    
+    }
+    </pre>
+    <br>
+    Elemen HTML juga dapat merujuk ke lebih dari satu kelas.
+    <br>
+    Contoh <br>
+    Dalam contoh ini elemen < p > akan diberi gaya menurut class="center" dan class="large":
+    <br>
+    <pre> < p class="center large">This paragraph refers to two classes.< / p ></pre>
+     </p>
+    <p style="background-color: bisque;"><b>Catatan :</b>Nama class tidak dapat dimulai dengan angka!</p>
+
+
+    <h2>Selector Universal CSS</h2>
+    <p>Selector universal ( * ) memilih semua elemen HTML pada halaman. <br>
+    Contoh <br>
+    Aturan CSS dibawah ini akan mempengaruhi setiap elemen HTML pada halaman :
+    <br>
+    <pre>* {
+        text-align: center;
+        color: blue;    
+    }</pre>
+    </p>
+
+
+    <h2>Selector Pengelompokan CSS</h2>
+    <p>Selector pengelompokan memilih semua elemen HTML dengan definisi gaya yang sama. <br>
+    Lihatlah kode CSS berikut ( elemen h1, h2, dan p memiliki definisi gaya yang sama ):
+    <pre> 
+        h1 {
+            text-align: center;
+            color; red;    
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+        }
+
+        p {
+            text-align: center;
+            color: red;
+        }
+    </pre>
+    <br>
+    Akan lebih baik untuk mengelompokkan selector, untuk meminimalkan kode.
+    <br>
+    Untuk mengelompokkan selector, Pisahkan setiap selector dengan koma.
+    <br>
+    Contoh <br>
+    Dalam contoh ini kami telah mengelompokkan pemilih dari kode diatas :
+    <pre> h1, h2, p {
+            text-align: center;
+            color: red;    
+    }</pre>
+
+    </p>
+
+</body>
+</html>
