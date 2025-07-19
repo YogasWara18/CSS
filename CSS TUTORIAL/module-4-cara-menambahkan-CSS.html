@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO ADD CSS</title>
+</head>
+<body>
+        <h1>HOW TO ADD CSS ( Cara menambahkan CSS )</h1>
+        <p>Saat browser membaca lembar gaya, ia akan memformat dokumen HTML sesuai dengan informasi dalam lembar gaya.</p>
+
+        <h2>Tiga cara memasukkan CSS</h2>
+        <ul>
+            <li>CSS EKSTERNAL</li>
+            <li>CSS INTERNAL</li>
+            <li>CSS INLINE</li>
+        </ul>
+
+        <h2>CSS EKSTERNAL</h2>
+        <p>Dengan lembar gaya eksternal, Anda dapat mengubah tampilan seluruh situs web hanya dengan mengubah satu file! <br>
+        Setiap halaman HTML harus menyertakan referensi ke berkas lembar gaya eksternal di dalam elemen < link >, didalam bagian head. <br> <br>
+        Contoh <br>
+        Gaya eksternal didefenisikan dalam elemen < link >, didalam bagian < head > halaman HTML : 
+        <pre> < ! DOCTYPE html >
+        < html >
+        < head >
+        < link rel="stylesheet" href="mystyle.css">
+        < / head >
+        < body >
+
+            < h1 >This is a heading < / h1 >
+            < p >This is a paragraph < / p >
+
+        < / body >
+        < / html >
+        </pre>
+        </p>
+
+        <p>Lembar style eksternal dapat ditulis dalam editor teks apapun, dan harus disimpan dengan ekstensi .css. <br>
+        File .css eksternal tidak boleh berisi tag HTML apa pun. <br>
+        Berikut tampilan file "mystyle.css": <br>
+        <b>mystyle.css</b>
+        <pre> 
+            body {
+                background-color: lightblue;    
+            }
+
+            h1 {
+                color: navy;
+                margin-left: 20px;
+            }
+        </pre>
+        <br>
+        <b>Catatan :</b>Jangan tambahkan spasi antara nilai properti (20) dan unit (px): <br>
+        salah (spasi): margin-left: 20 px; <br>
+        benar (tanpa spasi): margin-left: 20px;
+        </p>
+
+
+        <h2>CSS INTERNAL</h2>
+        <p>Lembar gaya internal dapat digunakan jika satu halaman HTML memiliki gaya yang unik. <br>
+        Gaya internal didefenisikan didalam elemen < " style " > didalam bagian kepala <br> <br>
+        Contoh : <br>
+        Gaya internal didefinisikan dalam elemen < "style" >, didalam bagian < head > halaman HTML : <br>
+        <pre>
+            < ! DOCTYPE html >
+            < html >
+            < head >
+            < .style >
+                body {
+                    background-color: linen;
+                }
+
+                h1 {
+                    color: maroon;
+                    margin-left: 40px;
+                }
+            < / style >
+            < / head >
+
+            < h1 >This is a heading < / h1 >
+            < p >This is a paragraph < / p >
+            < / html >
+        </pre>   
+        </p>
+
+
+        <h2>CSS IN-LINE</h2>
+        <p>Gaya inline dapat digunakan untuk menerapkan gaya unik satu elemen. <br>
+        Untuk menggunakan gaya inline, tambahkan atribut style ke elemen yang relevan. atribut style dapat berisi properti CSS apa pun. <br> <br>
+        Contoh : <br>
+        Gaya inline didefinisikan dalam atribut "style" dari elemen yang relevan :
+        <pre>
+            < ! DCOTYPE html >
+            < html > 
+            < body > 
+
+                < h1 style="color:blue;text-align:center;">This is a heading< / h1 >
+                < p style="color:red;">This is a paragraph.< / p >
+
+            < / body >
+            < / html >
+        </pre>
+        <b>Tips :</b> Gaya sebaris menghilangkan banyak keunggulan lembar gaya ( karena mencampur konten dengan presentasi ). Gunakan metode ini dengan bijak.
+        </p>
+
+        <h2>URUTAN BERJENJANG</h2>
+        <p>Gaya apa yang akan digunakan ketika ada lebih dari satu gaya yang ditentukan untuk elemen HTML? <br>
+        Semua gaya dihalaman akan "diturunkan" ke lembar gaya "virtual" baru berdasarkan aturan berikut, dengan nomor satu sebagai prioritas tertinggi :
+        <ol>
+            <li>Gaya sebaris ( di dalam elemen HTML )</li>
+            <li>Lembar gaya eksternal dan internal ( dibagian kepala )</li>
+            <li>Peramban bawaan</li>
+        </ol>
+        Jadi, gaya sebaris memiliki prioritas tertinggi , dan akan mengesampingkan gaya eksternal dan internal serta pengaturan default browser. 
+        </p>
+</body>
+</html>
