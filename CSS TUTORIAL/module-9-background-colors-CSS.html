@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BACKGROUNDS</title>
+</head>
+<body>
+
+    <h1>CSS BACKGROUNDS</h1>
+    <p>Properti background CSS digunakan untuk menambahkan efek latar belakang untuk elemen.</p>
+
+    <p>Dalam bab ini, akan mempelajari tentang properti latar belakang CSS berikut :
+        <ul>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-attachment</li>
+            <li>background-position</li>
+            <li>background(properti singkatan)</li>
+        </ul>
+    </p>
+
+
+    <h2>CSS background-color</h2>
+    <p>properti bcakground-color menentukan warna latar belakang suatu elemen.</p>
+    <p>Contoh <br>
+    Warna latar belakang halaman diatur seperti ini :
+    </p>
+    <pre>
+        body {
+            background-color: lightblue;
+        }
+    </pre>
+    <p>Dengan CSS, warna paling sering ditentukan oleh :
+        <ul>
+            <li>Nama warna yang valid - seperti "red"</li>
+            <li>Nilai HEX - seperti "#ff0000"</li>
+            <li>Nilai rgb(255, 0, 0)</li>
+        </ul>
+    </p>
+
+
+    <h2>Other Element ( Elemen Lainnya )</h2>
+    <p>Anda dapat mengatur warna latar belakang untuk elemen HTML apa pun :</p>
+    <p>Contoh <br>
+    Disini, elemen < h1 >, < p >, dan < div > akan memilih warna latar belakang yang berbeda :
+    <pre>
+        h1 {
+            background-color: green;
+        }
+
+        div {
+            background-color: lightblue;
+        }
+
+        p {
+            background-color: yellow;
+        }
+    </pre>
+    </p>
+
+
+    <h2>Opacity / Transparansi</h2>
+    <p>Properti ini opacity menentukan opasitas/transparansi suatu elemen. Nilainya dapat berkisar dari 0.0 hingga 1.0 semakin rendah nilainya, semakin transparan :</p>
+    <p>Contoh <br>
+    <pre>
+        div {
+            background-color: green;
+            opacity: 0.3;
+        }
+    </pre>
+    </p>
+    <p style="background-color:antiquewhite"><b>Catatan :</b>Saat menggunakan opacity properti untuk menambahkan transparansi pada latar belakang suatu elemen, semua elemen turunannya mewarisi transparansi yang sama. hal ini dapat membuat teks didalam elemen yang sepenuhnya transparan sulit dibaca.</p>
+
+
+    <h2>Transparansi menggunakan RGBA</h2>
+    <p>Jika anda tidak ingin menerapkan opasitas pada elemen anak, seperti pada contoh di atas, gunakan nilai warna RGBA. Contoh berikut menetapkan opasitas untuk watna latar belakang, bukan teks. <br>
+    Anda telah mempelajari dari Bab warna CSS kami bahwa Anda dapat menggunakan RGB sebagai nilai warna. Selain RGB, Anda dapat menggunakan nilai warna RGB dengan kanal alfa ( Rgb A ) - yang menentukan opasitas suatu warna. <br>
+    Nilai warna RGBA ditentukan dengan: rgba(red, green, blue, alfa). parameter alfa berupa angka antara 0.0 (sepenuhnya transparan) dan 1.0 (sepenuhnya buram). <br>
+    Tip : Anda akan mempelajari lebih lanjut tentang Warna RGBA di Bab warna CSS : <br>
+    Contoh <br>
+    <pre>
+        div {
+            background: rgba(0, 128, 0, 0.3) /* green background with 30% opacity */
+        }
+    </pre>
+    </p>
+
+</body>
+</html>
