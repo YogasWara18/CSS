@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HSL COLORS</title>
+</head>
+<body>
+    
+    <h1>CSS HSL COLORS</h1>
+    <p>HSL merupakan singkatan dari HUE ( rona ), SATURATION ( saturasi ), dan LIGHTNESS ( cahaya ).</p>
+
+    <h2>HSL VALUE ( Nilai HSL )</h2>
+    <p>Dalam CSS, warna dapat ditentukan menggunakan rona, saturasi, dan kecerahan ( HSL ) dalam bentuk : <br>
+    <b>hsl( rona, saturasi, kecerahan )</b> <br>
+    Rona ( Hue ) adalah derajat pada roda warna dari 0 hingga 360. 0 adalah merah, 120 adalah hijau, dan 240 adalah biru.  <br>
+    Saturasi ( Saturasion ) adalah nilai persentase. 0% berarti warna abu - abu, dan 100% adalah warna penuh. <br>
+    Kecerahan ( lightness ) juga merupkan persentase. 0% adalah hitam, 50% tidak terang dan tidak gelap, 100% adalah putih.
+    </p> 
+    <h1>Specify colors using HSL values</h1>
+
+    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h2>
+    <h2 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h2>
+    <h2 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h2>
+
+
+    <h2>Saturation</h2>
+    <p>Saturasi dapat dijelaskan sebagai intensitas warna. <br>
+    100% adalah warna murni, tidak ada nuansa abu - abu. <br>
+    50% adalah 50% abu - abu, tetapi anda masih dapat melihat warnanya. <br>
+    0% sepenuhnya abu - abu; Anda tidak dapat lagi melihat warnanya.
+    </p>
+    <h1>HSL Saturation</h1>
+
+    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h2>
+
+
+    <h2>Lightness</h2>
+    <p>tingkat kecerahan suatu warna dapat dijelaskan sebagai seberapa banyak cahaya yang ingin anda berikan pada warna tersebut, dimana 0% berarti tidak ada cahaya ( hitam ), 50% berarti 50% cahaya ( tidak gelap maupun terang ) dan 100% berarti kecerahan penuh ( putih ).</p>
+    <h1>HSL Lightness</h1>
+
+    <h2 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h2>
+    <h2 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h2>
+    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h2>
+    <h2 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h2>
+    <h2 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h2>
+
+
+    <h2>Shades of gray ( Nuanda abu - abu )</h2>
+    <p>Nuansa abu - abu sering kali ditentukan dengan mengatur rona (hue) dan saturasi (saturasion) ke 0, dan menyesuaikan kecerahan dari 0% hingga 100% untuk mendapatkan nuansa yang lebih gelap/lebih terang: </p>
+    <h1>Shades of gray</h1>
+
+    <h2 style="background-color:hsl(0, 0%, 0%);">hsl(0, 0%, 0%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 24%);">hsl(0, 0%, 24%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 47%);">hsl(0, 0%, 47%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 71%);">hsl(0, 0%, 71%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 94%);">hsl(0, 0%, 94%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 100%);">hsl(0, 0%, 100%)</h2>
+
+
+    <h2>HSLA VALUE ( Nilai HSLA )</h2>
+    <p>Nilai warna HSLA merupakan perluasan nilai warna HSL dengan saluran alfa - yang menentukan opasitas suatu warna. <br>
+    Nilai warna HSLA ditentukan dengan : 
+    <b>hsla( Hue, Saturasi, Lightness, alfa )</b> <br>
+    Parameter alpha adalah angka antara 0.0 ( sepenuhnya transparan ) dan 1.0 ( tidak transparan sama sekali ): <br>
+    Lakukan percobaan dengan mencampur nilai HSLA dibawah ini :
+    </p>
+    <h1>Make transparent colors with HSLA</h1>
+
+    <h2 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h2>
+    <h2 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h2>
+    <h2 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h2>
+    <h2 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h2>
+    <h2 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h2>
+    <h2 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h2>
+
+</body>
+</html>
