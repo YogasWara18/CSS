@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BACKGROUND SHORTHAND</title>
+</head>
+<body>
+
+    <h1>CSS BACKGROUND SHORTHAND</h1>
+    <h2>CSS background-shorthand property</h2>
+    <p>Untuk mempersingkat kode, anda juga dapat menentukan semua properti latar belakang dalam satu properti tunggal. ini disebut properti singkatan ( shorthand ). <br>
+    Contoh : <br>
+    <pre>
+        body {
+            background-color: #ffffff;
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+    </pre>
+    Anda dapat menggunakan properti singkatan background : <br>
+    Contoh :<br>
+    Gunakan properti singkatan untuk menetapkan properti background dalam satu deklarasi :
+    <pre>
+        body {
+            background: #ffffff url("img_tree.png") no-repeat right top;
+        }
+    </pre>
+    </p>
+
+    <p>Saat menggunakan properti shorthand, urutan nilai properti adalah : <br>
+        <ol>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-attachment</li>
+            <li>background-position</li>
+        </ol>
+    Tidak masalah jika salah satu nilai properti hilang, selama nilai lainnya berada dalam urutan ini. Perhatikan bahwa kami tidak menggunakan properti background-attachment dalam contoh diatas, karenatidak memiliki nilai.
+    </p>
+
+
+    <h2>Semua properti background CSS</h2>
+    <table>
+        <th>Property</th>
+        <th>Description</th>
+        <tr>
+            <td>background</td>
+            <td> Mengatur semua properti background dalam satu deklarasi</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
