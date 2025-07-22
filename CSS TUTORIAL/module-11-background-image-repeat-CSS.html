@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BACKGROUND IMAGE REPEAT</title>
+</head>
+<body>
+
+    <h1>CSS BACKGROUND IMAGE REPEAT</h1>
+    <h2>CSS background-repeat</h2>
+    <p>Secara default, background-image properti mengulang gambar baik secara horizontal maupun vertical. <br>
+    Beberapa gambar sebaiknya diulang hanya secara horizontal atau vertical, atau akan terlihat aneh, seperti ini : <br>
+    Contoh <br>
+    <pre>
+        body {
+            background-image: url("gradient_bg.png");
+        }
+    </pre>
+    </p>
+    <p>Jika gambar diatas diulang hanya secara horizontal ( background-repeat: repeat-x; ), latar belakang akan terlihat lebih baik : <br>
+    Contoh <br>
+    <pre>
+        body {
+            background-image: url("gradient_bg.png");
+            background-repeat: repeat-x;
+        }
+    </pre>
+    </p>
+    <p><b>Tip :</b>Untuk mengulang gambar secara vertikal. atur background-repeat: repeat-y; </p>
+
+
+    <h2>CSS background-repeat: no-repeat </h2>
+    <p>Menampilkan gambar latar belakang hanya satu kali juga ditentukan oleh background-repeat properti: <br>
+    Contoh <br>
+    Tampilan gambar latar belakang satu kali saja :
+    <pre>
+        body {
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+        }
+    </pre>
+    <br>
+    Pada contoh diatas, gamabr latar belakang ditempatkan di tempat yang sama dengan teks. Kita ingin mengubah posisi gambar agar tidak terlalu mengganggu teks. 
+    </p>
+
+
+    <h2>Posisi latar belakang CSS</h2>
+    <p>Properti background-position ini digunakan untuk menentukan posisi gambar latar belakang. <br>
+    Contoh <br>
+    Posisikan gambar latar belakang disudut kanan atas : 
+    <pre>
+        body {
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+    </pre>
+    </p>
+
+    <h2>Properti pengulangan dan posisi latar belakang CSS</h2>
+    <table>
+        <th>Property</th>
+        <th>Description</th>
+        <tr>
+            <td>background-position</td>
+            <td>mengatur posisi awal background image</td>
+        </tr>
+        <tr>
+            <td>background-repeat</td>
+            <td>mengatur bagaimana background image dapat diulang</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
