@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BACKGROUND ATTACHMENT</title>
+</head>
+<body>
+
+    <h1>CSS Background Attachment ( Lampiran latar belakang CSS )</h1>
+    <h2>Background attachment CSS</h2>
+    <p>Properti background-attachment menentukan apakah gambar background harus digulir atau tetap ( tidak akan digulir bersama bagian halaman lainnya ) : <br>
+    Contoh :<br>
+    Tentukan bahwa background harus diperbaiki :
+    <pre>
+        body {
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: fixed;
+        }
+    </pre>
+    Contoh :<br>
+    Tentukan bahwa background harus bergulir bersama dengan sisa halaman : <br>
+    <pre>
+        body {
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: scroll;
+        }
+    </pre>
+    </p>
+
+    <h2>Properti background-attachment CSS</h2>
+    <table>
+        <th>Property</th>
+        <th>Description</th>
+        <tr>
+            <td>background-attachment</td>
+            <td>mengatur apakah background image fixed ( tetap ) atau scroll ( bergulir ) bersama bagian halaman lainnya</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
