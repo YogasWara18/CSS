@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border Color</title>
+    <style>
+        p.one {
+            border-style: solid;
+            border-color: red;
+        }
+        p.two {
+            border-style: solid;
+            border-color: green;
+        }
+        p.three {
+            border-style: dotted;
+            border-color: blue;
+        }
+        p.four {
+            border-style: solid;
+            border-color: red green blue yellow;
+        }
+
+        p.hex {
+            border-style: solid;
+            border-color: #ff0000;
+        }
+
+        p.rgb {
+            border-style: dashed;
+            border-color: rgb(255, 0, 0);
+        }
+
+        p.hsl {
+            border-style: double;
+            border-color: hsl(0, 100%, 50%);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS Border Color</h1>
+    <p>Properti <b>border-color</b> ini digunakan untuk mengatur warna keempat batas. <br>
+    Warna dapat diatur dengan :
+    <ul>
+        <li>nama - tentukan nama warna, seperti "red"</li>
+        <li>HEX - tentukan nilai HEX, seperti "#ff0000"</li>
+        <li>RGB - tentukan nilai RGB, seperti "rgb(255,0,0)"</li>
+        <li>HSL - tentukan nilai HSL, seperti "hsl(0, 100%, 50%)"</li>
+        <li>Trasparan</li>
+    </ul>
+    <b>Catatan :</b> jika border-color tidak disetel, ia mewarisi warna elemen.
+    </p>
+    <p>Contoh <br>
+    Demonstrasi warna batas yang berbeda :
+    </p>
+    <p class="one">A solid red border</p>
+    <p class="two">A solid green border</p>
+    <p class="three">A dotted blue border</p>
+
+
+    <h2>Specific side colors ( Warna sisi spesifik ) </h2>
+    <p>Properti <b>border-color</b> dapat memiliki satu hingga empat nilai ( untuk batas atas, batas kanan, batas bawah, batas kiri ). <br>
+    Contoh :
+    </p>
+    <p class="four">Border Specific Color</p>
+
+
+
+    <h2>HEX value ( nilai HEX )</h2>
+    <p>Warna border juga dapat ditentukan menggunakan nilai heksadesimal ( HEX ): <br>
+    Contoh :
+    </p>
+    <p class="hex">Color dengan properti HEX</p>
+
+
+    <h2>RGB value ( nilai RGB )</h2>
+    <p>Atau dengan menggunakna nilai RGB : <br>
+    Contoh :
+    </p>
+    <p class="rgb">Color dengan properti RGB</p>
+
+
+    <h2>HSL value ( nilai HSL )</h2>
+    <p>Anda juga dapat menggunakan nilai HSL : <br>
+    Contoh :
+    </p>
+    <p class="hsl">Color dengan properti HSL</p>
+
+</body>
+</html>
