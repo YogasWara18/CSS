@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS BORDER SIDES</title>
+
     <style>    
     p.border-sides {
         border-top-style: dotted;
@@ -13,7 +14,25 @@
     }
 
     p.border-sides-shorthand { border-style: dotted solid; }
+
+    /* Four values */
+    p.four { border-style: dotted solid double dashed; }
+
+    /* Three values */
+    p.three { border-style: dotted solid double; }
+
+    /* Two values */
+    p.two { border-style: dotted solid; }
+
+    /* One values */
+    p.one { border-style: dotted; }
+
+    p.caution { 
+        background-color: darkorange;
+        display: inline;
+     }
     </style>
+
 </head>
 <body>
     
@@ -29,6 +48,45 @@
     <p>Contoh diatas memeberikan hasil yang sama seperti ini :</p>
 
     <p class="border-sides-shorthand">menggunakan cara yang lebih singkat</p>
+
+    <p>Jika <b>border-style</b> properti memiliki empat nilai :</p>
+    <ul>
+        <li><b>border-style: dotted solid double dashed :</b></li>
+        <li>top border is dotted</li>
+        <li>right border is solid</li>
+        <li>bottom border is double</li>
+        <li>left border is dashed</li> 
+    </ul>
+
+    <p>jika <b>border-style</b> properti memiliki tiga nilai :</p>
+    <ul>
+        <li><b>border-style: dotted solid double :</b></li>
+        <li>top border is dotted</li>
+        <li>right and left borders are solid</li>
+        <li>bottom border is double</li>
+    </ul>
+
+    <p>jika <b>border-style</b> properti memiliki dua nilai :</p>
+    <ul>
+        <li><b>border-style: dotted solid :</b></li>
+        <li>top and bottom borders are dotted</li>
+        <li>right and left borders are solid</li>
+    </ul>
+
+    <p>jika <b>border-style</b> properti memiliki satu nilai :</p>
+    <ul>
+        <li><b>border-style: dotted</b></li>
+        <li>Keempat batasnya dotted</li>
+    </ul>
+    <p>Contoh :</p>
+    <h2>Individual Border Sides</h2>
+    <p class="four">4 value border-style</p>
+    <p class="three">3 value border-style</p>
+    <p class="two">2 value border-style</p>
+    <p class="one">1 border-style</p>
+
+    <p class="caution">Properti ini <b>border-style</b> digunakan dalam contoh diatas. Namun, properti ini juga berfungsi dengan <b>border-width</b> dan <b>border-color</b></p>
+
 
 </body>
 </html>
