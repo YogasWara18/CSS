@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins CSS</title>
+    <style>
+        div.margins {
+            margin: 70px;
+            border: 1px solid green;
+            display: inline;
+        }
+
+        ul.margin-properties {
+            color: rgb(255, 0 , 0);
+        }
+
+        .margin-individual {
+            border: 1px solid blue;
+            margin-top: 100px;
+            margin-right: 150px;
+            margin-bottom: 100px;
+            margin-left: 80px;
+        }
+
+        .margin-shorthand-4value {
+            border: 1px solid green;
+            margin: 25px 50px 75px 100px;
+        }
+
+        .margin-shorthand-3value {
+            border: 1px solid yellow;
+            margin: 25px 50px 75px;
+        }
+
+        .margin-shorthand-2value {
+            border: 1px solid red;
+            margin: 25px 50px;
+        }
+
+        .margin-shorthand-1value {
+            border: 1px solid purple;
+            margin: 25px;
+        }
+
+        .margin-auto {
+            width: 300px;
+            margin: auto;
+            border: 1px solid blue;
+        }
+
+        .inherit {
+            border: 1px solid red;
+            margin-left: 100px;
+        }
+
+        .inherit1 {
+            margin-left: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS MARGINS</h1>
+    <p>Margin ditentukan untuk membuat ruang disekitar elemen, diluar batas yang ditentukan.</p>
+
+    <h2>CSS Margins</h2>
+    <div class="margins">Elemen ini memiliki margin 70px.</div>
+
+    <h2>CSS Margin</h2>
+    <p>Properti CSS <b>margin</b> digunakan untuk membuat ruang disekitar elemen, diluar batas yang ditentukan. <br> <br>
+    Dengan CSS, anda memiliki kendali penuh atas margin. Terdapat properti untuk mengatur margin untuk setiap sisi elemen ( atas, kanan, bawah, dan kiri ).
+    </p>
+
+
+    <h2>Margin - Sisi Individu</h2>
+    <p>CSS memiliki properti untuk menentukan margin untuk setiap sisi elemen :</p>
+    <ul class="margin-properties">
+        <li>margin-top</li>
+        <li>margin-right</li>
+        <li>margin-bottom</li>
+        <li>margin-left</li>
+    </ul>
+    <p>Semua properti margin dapat memiliki nilai berikut :
+        <ul>
+            <li>otomatis - browser menghitung margin</li>
+            <li>panjang - menentukan margin dalam px, pt, cm, dll.</li>
+            <li>% - menentukan margin dalam % dari lebar elemen yang memuatnya</li>
+            <li>Mewarisi - menentukan bahwa margin harus diwarisi dari elemen induk</li>
+        </ul>
+        <b>Tip :</b> Nilai negatif diperbolehkan. <br> <br>
+        Contoh : <br>
+        Tetapkan margin yang berbeda untuk keempat sisi elemen <p> :
+    </p>
+    <h2>Menggunakan properti margin individual</h2>
+    <div class="margin-individual">Elemen ini memiliki margin atas 100px, margin kanan 150px, margin bawah, 100px, margin kiri 80 px.</div>
+
+
+    <h2>Margin - Shorthand Property</h2>
+    <p>Untuk mempersingkat kode, adalah mungkin untuk menentukan semua properti margin dalam satu properti. <br> <br>
+    Properti ini <b>margin</b> adalah properti shorthand ( singkatan ) untuk properti margin individual berikut : <br>
+    <ul class="margin-properties">
+        <li>margin-top</li>
+        <li>margin-right</li>
+        <li>margin-bottom</li>
+        <li>margin-left</li>
+    </ul>
+    <br>
+    <br>
+    Jadi, beginilah cara kerjanya : <br>
+    Jika <b>margin</b> properti memiliki empat nilai : <br>
+    <ul>
+        <li><b>Margin: 25px 50px 75px 100px</b></li>
+        <li>margin atas adalah 25px</li>
+        <li>margin kanan adalah 50px</li>
+        <li>margin bawah adalah 75px</li>
+        <li>margin kiri adalah 100px</li>
+    </ul>
+    Contoh : <br>
+    Gunakan properti singkatan margin dengan empat nilai : <br>
+    </p>
+
+    <h2>The margin menggunakan shorthand 4 value ( nilai ) </h2>
+    <div class="margin-shorthand-4value">elemen ini menggunakan shorthand 4 value, margin top 25px, margin right 50px, margin bottom 75px, margin left 100px.</div>
+
+    <h2>The margin menggunakan shorthand 3 value ( nilai )</h2>
+    <div class="margin-shorthand-3value">elemen ini menggunakan shorthand 3 value, margin top 25px, margin right 75px, margin bottom 100px.</div>
+
+    <h2>The margin menggunakan shorthand 2 value ( nilai )</h2>
+    <div class="margin-shorthand-2value">elemen ini menggunakan shorthand 2 value, margin top 25px, margin right 50px.</div>
+
+    <h2>The margin menggunakan shorthand 1 value ( nilai )</h2>
+    <div class="margin-shorthand-1value">elemen ini menggunakan shorthand 1 value, maka semua empat marginnya menjadi satu berukuran 25px.</div>
+
+
+
+    <h2>Nilai otomatis</h2>
+    <p>Anda dapat mengatur properti margin untuk auto memusatkan elemen secara horizontal didalam wadahnya. <br>
+    Elemen tersebut kemudian akan mengambil lebar yang ditentukan, dan ruang yang tersisa akan dibagi sama rata antara margin kiri dan kanan. <br>
+    Contoh <br>
+    Gunakan margin: otomatis ( auto )
+    </p>
+    <h2>Menggunakan margin: auto</h2>
+    <p>Dapat mengatur properti margin ke otomatis untuk memusatkan elemen secara horizontal di dalam wadahnya. Elemen tersebut kemudian akan memiliki lebar yang ditentukan, dan ruang yang tersisa akan dibagi rata antara margin kiri dan kanan :</p>
+    <div class="margin-auto">Div ini akan dipusatkan secara horizontal karena memiliki margin:auto</div>
+
+    <h2>The inherit value ( nilai warisan )</h2>
+    <p>Contoh ini memungkinkan margin kiri elemen < p class="ex1" > diwarisi dari elemen induk (<div>) :</p>
+
+    <h2>Penggunaan nilai Inherit ( warisan )</h2>
+    <p>Biarkan margin kiri diwarisi dari elemen induk :</p>
+    <div class="inherit">
+        <p class="inherit1">paragraph ini memiliki margin kiri yang diwarisi ( dari elemen div )</p>
+    </div>
+</body>
+</html>
