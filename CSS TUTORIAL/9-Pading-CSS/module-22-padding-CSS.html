@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding</title>
+    <style>
+        .padding { padding: 70px; }
+
+        .padding-individual {
+            border: 1px solid green;
+            background-color: aqua;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .padding-shorthand-4values {
+            border: 1px solid blue;
+            background-color:bisque;
+            padding: 25px 50px 75px 100px;
+        }
+
+        .padding-shorthand-3values {
+            border: 1px solid green;
+            background-color:aquamarine;
+            padding: 25px 50px 75px;
+        }
+
+        .padding-shorthand-2values {
+            border: 1px solid yellow;
+            background-color:lime;
+            padding: 25px 50px;
+        }
+
+        .padding-shorthand-1value {
+            border: 1px dashed blue;
+            background-color:brown;
+            padding: 25px;
+        }
+
+        .padding-element-width {
+            width: 300px;
+            padding: 25px;
+            border: 2px dashed black;
+        }
+
+        .padding-box-sizing {
+            border: 1px solid red;
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .padding { padding-left: 2cm; }
+
+        .padding2 { padding-left: 50%; }
+
+        .padding-right { padding-right: 2cm; }
+
+        .padding-right2 { padding-right: 50%; }
+
+        .padding-top { padding-top: 2cm; }
+
+        .padding-top2 { padding-top: 50%; }
+
+        .padding-bottom { padding-bottom: 2cm; }
+
+        .padding-bottom2 { padding-bottom: 50%; }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS Padding</h1>
+    <p>Padding digunakan untuk membuat ruang disekitar konten elemen, didalam batas yang ditentukan.</p>
+
+    <h2>CSS Padding</h2>
+    <div class="padding">Elemen ini menggunakan padding 70px</div>
+    <p>Properti CSS <b>padding</b> digunakan untuk menghasilkan spasi di sekitar konten elemen, di dalam bats yang ditentukan. <br>
+    Dengan CSS, anda memiliki kendali penuh atas padding. Terdapat properti untuk mengatur padding untuk setiap sisi elemen ( atas, kanan, bawah, dan kiri ).
+    </p>
+
+    <h2>Padding - Individual Sides</h2>
+    <p>CSS memiliki properti untuk menentukan padding untuk setiap sisi elemen :
+        <ul>
+            <li>padding-top</li>
+            <li>padding-right</li>
+            <li>padding-bottom</li>
+            <li>padding-left</li>
+        </ul>
+        Semua properti padding dapat memiliki nilai berikut : <br>
+        <ul>
+            <li>Panjang - menentukan padding dalam px, pt, cm, dll</li>
+            <li>% - menentukan padding dalam % dari lebar elemen yang memuatnya</li>
+            <li>Mewarisi - menentukan bahwa padding harus diwarisi dari elemen induk</li>
+        </ul>
+        <b>Catatan :</b> Nilai negatif tidak diizinkan. <br>
+        <br>
+        Contoh : <br>
+        Tetapkan padding yang berbeda untuk keempat sisi elemen < div >
+        </p>
+
+        <h2>Menggunakan properti padding individual</h2>
+        <div class="padding-individual">
+            Elemen ini memakai padding individual padding atas 50px, padding kanan 30px, padding bawah 50px, dan padding kiri 80px.
+        </div>
+
+
+        <h2>Padding - Shorthand Property</h2>
+        <p>Untuk mempersingkat kode, dimungkinkan untuk menentukan semua properti padding dalam satu properti.  <br>
+        Properti ini <b>padding</b> adalah properti singkatan untuk properti padding individual berikut : <br>
+        <ul>
+            <li>padding-top</li>
+            <li>padding-right</li>
+            <li>padding-bottom</li>
+            <li>padding-left</li>
+        </ul>
+        <br>
+        <div class="padding-shorthand-4values">
+        Jadi, beginilah cara kerjanya : <br>
+        jika <b>padding</b> properti memiliki empat nilai : <br>
+        <ul>
+            <li><b>Padding : 25px 50px 75px 100px</b></li>
+            <li>padding atas adalah 25px</li>
+            <li>padding kanan adalah 50px</li>
+            <li>padding bawah adalah 75px</li>
+            <li>padding kiri adalah 100px</li>
+        </ul>
+        </div>
+        <br>
+        <div class="padding-shorthand-3values">
+        Jika <b>padding</b> properti memiliki tiga nilai : <br>
+        <ul>
+            <li><b>Padding: 25px 50px 75px</b></li>
+            <li>padding atas adalah 25px</li>
+            <li>padding kanan adalah 50px</li>
+            <li>padding bawah adalah 75px</li>
+        </ul>
+        </div>
+        <br>
+        <div class="padding-shorthand-2values">
+        jika <b>padding</b> properti memiliki dua nilai : <br>
+        <ul>
+            <li><b>Padding: 25px 50px</b></li>
+            <li>padding atas adalah 25px</li>
+            <li>padding kanan adalah 50px</li>
+        </ul>
+        </div>
+        <br>
+        <div class="padding-shorthand-1value">
+        jika <b>padding</b> properti memiliki satu nilai : <br>
+        <ul>
+            <li>Padding: 25px</li>
+            <li>Keempat sudut padding berukuran 25px</li>
+        </ul>
+        </div>
+        </p>
+
+        <div class="padding-element-width">
+        <h2>Padding and Element Width</h2>
+        <p>Properti CSS <b>width</b> menentukan lebar area konten suatu elemen. Area konten adalah bagian didalam padding, border, dan margin suatu elemen ( model kotak ). <br> <br>
+        jadi, jika suatu elemen memiliki lebar tertentu, paddding yang ditambahkan ke elemen tersebut akan ditambahkan ke lebar total elemen tersebut. Hal ini seringkali merupakan hasil yang tidak diinginkan. <br>
+        Contoh <br>
+        Disini, elemen < div > diberi lebar 300px. Namun, width sebenarnya dari elemen < div > adalah 350px ( 300px + 25px padding kiri + 25px padding kanan ) : <br>
+        </p>
+        </div>
+        <div class="padding-box-sizing">
+        <p>
+            Untuk mempertahankan lebar 300px, berapa pun jumlah padding, anda dapat menggunakan <b>box-sizing</b> properti ini. Hal ini akan mempertahankan lebar elemen yang sebenarnya; jika anda menambah padding, ruang konten yang tersedia akan berkurang. <br>
+            Contoh : <br>
+            Gunakan properti box-sizing untuk menjaga lebar pada 300px, berapa pun jumlah paddingnya:
+        </p>
+        </div>
+
+        <h2>Contoh lainnya </h2>
+        <p>Mengatur padding kiri <br>
+            Contoh ini memperagakan cara mengatur padding kiri elemen < p >.
+        </p>
+        
+        <h2>Padding-left property</h2>
+        <p>Ini adalah elemen paragraph tanpa padding kiri</p>
+        <p class="padding">Ini adalah elemen paragraph menggunakan padding 20cm</p>
+        <p class="padding2">Ini adalah elemen paragraph menggunakan padding 50%;</p>
+
+
+        <p>Mengatur padding kanan <br>
+        Contoh ini menunjukkan cara mengatur padding yang tepat untuk elemen < p >.
+        </p>
+
+        <h2>Padding-right property</h2>
+        <p>Ini adalah elemen paragraph tanpa padding kanan</p>
+        <p class="padding-right">Ini adalah elemen paragraph menggunakan padding kanan dengan nilai 2cm</p>
+        <p class="padding-right2">Ini adalah elemen paragraph menggunakan padding kanan dengan nilai 50%</p>
+
+        <p>Mengatur padding atas <br>
+        Conton ini memperagakan cara mengatur padding elemen atas < p >.
+        </p>
+
+        <h2>Padding-top property</h2>
+        <p>Ini adalah element paragraph tanpa padding-top</p>
+        <p class="padding-top">Ini adalah element paragraph menggunakan padding-top dengan nilai 2cm.</p>
+        <p class="padding-top2">Ini adalah element paragraph menggunakan padding-top dengan nilai 50%.</p>
+
+
+        <p>mengatur padding bawah <br>
+        Contoh ini memperagakan cara mengatur padding elemen bawah < p >. 
+        </p>
+
+        <h2>Padding-bottom property</h2>
+        <p>Ini adalah elemen paragraph tidak menggunakan padding-bottom</p>
+        <p class="padding-bottom">Ini adalah elemen paragraph menggunakan elemen padding-bottom dengan nilai 2cm.</p>
+        <p class="padding-bottom2">Ini adalah elemen paragraph menggunakan elemen padding-botoom dengan nilai 50%.</p>
+
+</body>
+</html>

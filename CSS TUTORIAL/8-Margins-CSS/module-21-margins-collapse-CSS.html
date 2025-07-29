@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin Collapse</title>
+    <style>
+        h1 { margin: 0 0 50px 0;}
+
+        h2 { margin: 20px 0 0 0;}
+    </style>
+</head>
+<body>
+    
+    <h1>Margin Collapse</h1>
+    <p>Margin atas dan bawah elemen terkadang diringkas menjadi margin tunggal yang sama dengan margin terbesar dari keduanya. <br>
+    Ini tidak terjadi di amrgin kiri dan kanan! hanya di amrgin atas dan bawah! <br>
+    Lihatlah contoh berikut : <br>
+    Contoh <br>
+    Demonstrasi margin collapse : 
+    </p>
+    <p>Dalam contoh ini, elemen h1 memiliki margin bawah 50 piksel dan elemen h2 memiliki margin atas 20 piksel. Jadi, margin vertikal antara h1 dan h2 seharusnya 70 piksel ( 50 piksel + 20 piksel ). Namun, karena margin collaps, margin yang sebenarnya menjadi 50 piksel.</p>
+    <h1>Margin Collapse</h1>
+    <h2>Margin Collpase</h2>
+
+</body>
+</html>
