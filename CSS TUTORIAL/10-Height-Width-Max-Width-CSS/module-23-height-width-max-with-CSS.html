@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Height, Width and Max-Width</title>
+    <style>
+        .height-width {
+            height: 100px;
+            width: 100%;
+            border: 1px solid green;
+        }
+
+        .example-height-width {
+            height: 200px;
+            width: 50%;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        .example-height-width2 {
+            height: 100px;
+            width: 500px;
+            border: 1px dashed blue;
+            background-color:aqua;
+        }
+
+        .max-width-properti {
+            max-width: 500px;
+            height: 100px;
+            background-color: powderblue;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Height, Width & Max-Width</h1>
+    <p>CSS <b>height</b> dan <b>width</b> properti digunakan untuk mengatur tinggi dan lebar suatu elemen. <br>
+    Properti CSS <b>max-width</b> digunakan untuk mengatur lebar maksimum suatu elemen.
+    </p>
+    <h2>CSS Height dan Width properties</h2>
+    <div class="height-width">Elemen ini memiliki height 100px dan width 100%</div>
+
+
+    <h2>Pengaturan CSS Height dan Width</h2>
+    <p>Properti <b>height</b> dan <b>width</b> digunakan untuk mengatur tinggi dan lebar suatu elemen. <br>
+    Properti height dan width tidak mencakup padding, border, atau margin. Properti ini mengatur height/width area didalam padding, border, dan margin elemen. 
+    </p>
+
+    <h2>Value height dan width CSS</h2>
+    <p>Properti <b>height</b> dan <b>width</b> dapat memiliki nilai berikut :
+    <ul>
+        <li><b>auto -</b> Ini default. Peramban menghitung height dan width</li>
+        <li><b>length -</b> Menentukan height/width< dalam px, cm, dll.</li>
+        <li><b>% -</b> Menentukan height/width dalam persen dari blok yang berisi</li>
+        <li><b>initial -</b> Mengatur height/width ke nilai defaultnya</li>
+        <li><b>inherit -</b> Height/width akan diwarisi dari nilai induknya</li>
+    </ul>
+    </p>
+
+    <h2>Contoh height dan width CSS</h2>
+    <div class="example-height-width">Elemen ini memiliki height 200px dan width 50%</div>
+    <div class="example-height-width2">Elemen ini memiliki height 100px dan width 500px</div>
+
+    <p><b>Catatan :</b> Ingat bahwa properti height dan width tidak menyertakan padding, border, atau margin! Properti ini mengatur height/width area didalam padding, border, dan margin elemen! </p>
+
+    
+    <h2>Mengatur Max-Width ( Lebar maksimum )</h2>
+    <p>Properti <b>max-width</b> ini digunakan untuk mengatur width maksimum suatu elemen. <br>
+    Dapat <b>max-width</b> ditentukan dalam nilai length ( panjang ), seperti px, cm, dsb., atau dalam persen ( %) dari blok yang memuatnya, atau ditetapkan ke tidak ada ( ini adalah default. Berarti tidak ada lembar maksimum ). <br>
+    Masalah di <b><div></b> diatas terjadi ketika jendela peramban lebih kecil dari lebar elemen ( 500px ). Peramban kemudian menambahkan bilah gulir horizontal ke halaman. <br>
+    Dalam situasi ini, penggunaan <b>max-width</b> akan meningkatkan penanganan jendela kecil oleh browser. <br>
+    <b>Tip :</b> Seret jendela browser ke ukuran lebih kecil dari 500px, untuk melihat perbedaan antara dua div! <br>
+    <b>Catatan :</b> Jika karena alasan tertentu anda menggunakan kedua width properti tersebut dan max-width properti pada elemen yang sama, dan nilai properti width lebih besar dari max-width properti tersebut; <b>max-width</b> properti tersebut akan digunakan ( dan width properti tersebut akan diabaikan ). <br>
+    Contoh <br>
+    Elemen < div > ini memiliki height 100px dan max-width 500px :
+    </p>
+    <div class="max-width-properti">Elemen ini memiliki height 100px dan max-width 500px</div>
+</body>
+</html>
