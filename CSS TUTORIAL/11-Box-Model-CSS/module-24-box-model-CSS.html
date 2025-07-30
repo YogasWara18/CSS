@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Box Model</title>
+    <style>
+        .box-model {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid black;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
     
@@ -15,6 +24,20 @@
     Box-model CSS pada dasarnya adalah kotak yang membungkus setiap elemen HTML Model ini terdiri dari: konten, padding, border, dan margin. Gambar di bawah ini mengilustrasikan box-model tersebut :
     </p>
     <img src="/box-model.png" alt="Box model">
+    <p>Penjelasan bagian-bagian yang berbeda :</p>
+    <ul>
+        <li><strong>Konten -</strong> konten box, tempat teks dan gambar muncul</li>
+        <li><strong>Padding -</strong> Berfungsi untuk memberi ruang didalam elemen, yaitu jarak antara konten ( seperti teks atau gambar ) dan batas elemen ( border )</li>
+        <li><strong>Border - </strong> Batas yang mengelilingi padding dan konten</li>
+        <li><strong>Margin -</strong> Membersihkan area diluar batas. Margin transparan</li>
+    </ul>
+    <p>Box model memungkinkan kita untuk menambahkan batas disekitar elemen, dan menentukan ruang antar elemen. <br>
+    Contoh <br>
+    Demonstrasi box model :
+    </p>
+    <h2>Mendemonstrasikan Box model</h2>
+    <p>Box model CSS pada dasarnya adalah box yang membungkus setiap elemen HTML. Model ini terdiri dari: border, padding, margin, dan konten</p>
+    <div class="box-model">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorum maxime deserunt commodi quis suscipit?</div>
 
 </body>
 </html>
