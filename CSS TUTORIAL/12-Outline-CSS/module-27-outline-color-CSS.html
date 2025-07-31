@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Outline Color</title>
+    <style>
+        .outline-color1 {
+            border: 2px solid balck;
+            outline-style: solid;
+            outline-color: red;
+        }
+
+        .outline-color2 {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: blue;
+        }
+
+        .outline-color3 {
+            border: 2px solid balck;
+            outline-style: outset;
+            outline-color: grey;
+        }
+
+        .hex-outline-color{
+            border: 2px solid gold;
+            outline-style: solid;
+            outline-color: #ff00ff;
+        }
+
+        .rgb-outline-color {
+            border: 2px dashed black;
+            outline-style: solid;
+            outline-color: rgb(0, 255, 0);
+        }
+
+        .hsl-outline-color {
+            border: 2px solid black;
+            outline-style: dashed;
+            outline-color: hsl(0, 50%, 30%);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS Outline Color</h1>
+    <p>Properti <strong>outline-color</strong> ini digunakan unutk mengatur warna outline. <br>
+    Warna dapat diatur dengan :
+    <ul>
+        <li>Nama - tentukan nama warna, seperti "red"</li>
+        <li>HEX - tentukan nilai hex, seperti "#ff0000"</li>
+        <li>RGB - tentukan nilai RGB, seperti "rgb(255,0,0)</li>
+        <li>HSL - tentukan nilai HSL, seperti "hsl(0, 100%, 50%)</li>
+        <li>Invert - melakukan inversi warna ( yang memastikan bahwa garis luar terlihat terlepas dari warna latar belakang )</li>
+    </ul>
+    Contoh berikut menunjukkan beberapa outline dengan warna yang berbeda. Perhatikan juga bahwa elemen - elemen ini juga memiliki batas hitam tipis didalam garis luarnya :
+    </p>
+    <h2>Properti outline-color</h2>
+    <p class="outline-color1">Solid red outline</p>
+    <p class="outline-color2">dotted blue outline</p>
+    <p class="outline-color3">outset grey outline ( garis luar bewarna abu - abu )</p>
+
+    <h2>Nilai HEX</h2>
+    <p>Warna outline juga dapat ditentukan menggunaan nilai heksadesimal ( HEX ) : <br>
+    Contoh : 
+    </p>
+    <h2>Properti outline-color menggunakan HEX</h2>
+    <p class="hex-outline-color">Elemen ini menggunakan outline-color dengan warna red solid</p>
+
+
+    <h2>Nilai RGB</h2>
+    <p>Atau dengan menggunakan nilai RGB : <br>
+    Contoh :
+    </p>
+    <h2>Properti outline-color menggunakan RGB</h2>
+    <p class="rgb-outline-color">elemen ini menggunakan outline-color dengan menggunakan RGB</p>
+
+
+    <h2>Nilai HSL</h2>
+    <p>Anda juga dapat menggunakan nilai HSL : <br>
+    Contoh :
+    </p>
+    <h2>Properti outline-color menggunakan HSL</h2>
+    <p class="hsl-outline-color">elemen ini menggunakan outline-color dengan mengggunakan HSL</p>
+
+</body>
+</html>
