@@ -12,6 +12,18 @@
             padding: 50px;
             margin: 20px;
         }
+
+        .cauiton-width-height {
+            background-color:blanchedalmond;
+        }
+
+        .total-width-height {
+            width: 320px;
+            height: 50px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -23,7 +35,7 @@
     <p>Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tata letak. <br>
     Box-model CSS pada dasarnya adalah kotak yang membungkus setiap elemen HTML Model ini terdiri dari: konten, padding, border, dan margin. Gambar di bawah ini mengilustrasikan box-model tersebut :
     </p>
-    <img src="/box-model.png" alt="Box model">
+    <img src="/images/box-model.png" alt="Box model">
     <p>Penjelasan bagian-bagian yang berbeda :</p>
     <ul>
         <li><strong>Konten -</strong> konten box, tempat teks dan gambar muncul</li>
@@ -39,5 +51,17 @@
     <p>Box model CSS pada dasarnya adalah box yang membungkus setiap elemen HTML. Model ini terdiri dari: border, padding, margin, dan konten</p>
     <div class="box-model">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorum maxime deserunt commodi quis suscipit?</div>
 
+    <h2>Width & Height Element</h2>
+    <p>Untuk mengatur width dan height elemen dengan benar disemua browser, anda perlu mengetahui cara kerja box model. <br>
+    </p>
+    <p class="caution-width-height"><strong>Penting :</strong> Saat anda mengatur properti width dan heihgt suatu elemen dengan CSS , Anda hanya perlu mengatur width dan height area konten. Untuk menghitung total width dan height suatu elemen, Anda juga harus menyertakan padding dan border.</p>
+
+    <p>Contoh : <br>
+    Elemen < div > ini akan memiliki width 350px dan height 80px:
+    </p>
+
+    <h2>Menghitung total width :</h2>
+    <img src="/images/computer3.jpg" alt="Computer" width="350" height="263">
+    <div class="total-width-height">Gambar diatas memiliki width 350px. width elemen ini juga 350px. Height total elemen ini adalah 80px.</div>
 </body>
 </html>
