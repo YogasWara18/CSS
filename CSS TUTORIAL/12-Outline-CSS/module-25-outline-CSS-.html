@@ -12,6 +12,29 @@
             padding: 20px;
             text-align: center;
         }
+
+        .caution-outline {
+            background-color:bisque;
+            display: inline;
+        }
+
+        p { outline-color:greenyellow;}
+
+        .dotted { outline-style: dotted; }
+
+        .dashed { outline-style: dashed; }
+
+        .solid { outline-style: solid; }
+
+        .double { outline-style: double; }
+
+        .groove { outline-style: groove; }
+
+        .ridge { outline-style: ridge; }
+
+        .inset { outline-style: inset; }
+
+        .outset { outline-style: outset; }
     </style>
 </head>
 <body>
@@ -20,6 +43,46 @@
     <p>Outline adalah garis yang digambar diluar batas elemen.</p>
     <h2>Outline CSS</h2>
     <p class="outline">Elemen ini memiliki border black 2px dan outline blue dengan width 10px</p>
+
+    <h2>CSS Outline ( Garis besar )</h2>
+    <p>Outline adalah garis yang digambar disekeliling elemen, Outside ( diluar ) border, untuk membuat elemen tersebut "stand out ( menonjol )" </p>
+    <img src="/images/outline-model.png" alt="Outline model">
+    <p>CSS memiliki properti Outline berikut :</p>
+    <ul>
+        <li>outline-style</li>
+        <li>outline-color</li>
+        <li>outline-width</li>
+        <li>outline-offset</li>
+        <li>outline</li>
+    </ul>
+    <p class="caution-outline"><strong>Catatan :</strong> Outline berbeda dengan border! Tidak seperti border, Outline digambar diluar batas elemen, dan mungkin tumpang tindih dengan konten lainnya. Selain itu, Outline Bukan bagian dari dimensi elemen; Width dan height total elemen tidak terpengaruh oleh lebar outline.</p>
+
+    <h2>CSS Outline Style</h2>
+    <p>properti <b>outline-style</b> menentukan gaya outline, dan dapat memiliki salah satu nilai berikut :
+    <ul>
+        <li><strong>dotted</strong> - Menentukan garis putus - putus</li>
+        <li><strong>dashed</strong> - Menentukan garis putus - putus</li>
+        <li><strong>solid</strong> - Menentukan garis besar yang solid</li>
+        <li><strong>double</strong> - Menentukan garis ganda</li>
+        <li><strong>groove</strong> - Menentukan garis luar 3D</li>
+        <li><strong>ridge</strong> - Menentukan garis lengkung 3D</li>
+        <li><strong>inset</strong> - Menentukan garis sisipan 3D</li>
+        <li><strong>outset</strong> - Menentukan garis besar awal 3D</li>
+        <li><strong>none</strong> - Tidak menentukan garis besar</li>
+        <li><strong>hidden</strong> - Menentukan garis tersembunyi</li>
+    </ul>
+    Contoh berikut menunjukkan <strong>outline-style</strong> nilai - nilai yang berbeda :
+    </p>
+
+    <h2>Outline-style Properti</h2>
+    <p class="dotted">Dotted outline</p>
+    <p class="dashed">Dashed outline</p>
+    <p class="solid">Solid outline</p>
+    <p class="double">Double outline</p>
+    <p class="groove">Groove outline ( efeknya tergantung pada nilai warna outline )</p>
+    <p class="ridge">Ridge outline ( efeknya bergantung pada nilai warna outline )</p>
+    <p class="inset">Inset outline ( efeknya bergantung pada nilai warna outline )</p>
+    <p class="outset">Outset outline ( efeknya bergantung pada nilai warna outline )</p>
 
 </body>
 </html>
