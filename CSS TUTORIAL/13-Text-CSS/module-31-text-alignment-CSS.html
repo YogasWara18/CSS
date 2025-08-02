@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Alignment</title>
+    <style>
+        .text-alignment {
+            text-align: center;
+        }
+
+        .text-alignment2 {
+            text-align: left;
+        }
+
+        .text-alignment3 {
+            text-align: right;
+        }
+
+        .text-alignment-justify {
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            text-align: justify;
+        }
+
+        .text-align-last-right {
+            text-align-last: right;
+        }
+
+        .text-align-last-center {
+            text-align-last: center;
+        }
+
+        .text-align-last-justify {
+            text-align-last: justify;
+        }
+
+        .text-direction {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+
+        .vertical-align-1 {
+            vertical-align: baseline;
+        }
+
+        .vertical-align-2 {
+            vertical-align: text-top;
+        }
+
+        .vertical-align-3 {
+            vertical-align: text-bottom;
+        }
+
+        .vertical-align-4 {
+            vertical-align: sub;
+        }
+
+        .vertical-align-5 {
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS Text Alignment ( Penyelarasan Teks CSS )</h1>
+
+    <h2>Text Alignment & Text Direction ( Penyelarasan Teks dan Arah Teks )</h2>
+    <p>Dalam bab ini anda akan mempelajari tentang properti berikut : <br>
+    <ul>
+        <li>text-align</li>
+        <li>text-align-last</li>
+        <li>direction</li>
+        <li>unicode-bidi</li>
+        <li>vertical-align</li>
+    </ul>
+    </p>
+
+    <h2>Text Alignment ( Penyelarasan Teks )</h2>
+    <p>Properti <strong>text-align</strong> ini digunakan untuk mengatur perataan horizontal suatu teks. <br>
+    Suatu teks dapat diratakan kiri atau kanan, dipusatkan, atau diberi tepi kanan atau kiri. <br>
+    Contoh berikut menunjukkan teks yang diratakan tengah, dan diratakan kiri dan kanan ( perataan kiri adalah default jika arah teks dari kiri dan kanan ), dan perataan kanan adalah default jika arah teks dari kanan dan kiri 
+    </p>
+
+    <h1 class="text-alignment">judul 1</h1>
+    <h2 class="text-alignment2">judul 2</h2>
+    <h3 class="text-alignment3">judul 3</h3>
+    <p>Ketiga judul diatas disejajarkan ditnagah ( center ), kiri ( left ), right ( kanan )</p>
+
+    <p>Ketika <strong>text-align</strong> properti diatur ke "justify", setiap baris akan diregangkan sehingga setiap baris memiliki lebar yang sama, dan margin kiri dan kanan lurus ( seperti di majalah dan surat kabar ):</p>
+
+    <h2>text-align: justify</h2>
+    <p>Nilai text-align: justify; Meregangkan garis sehingga setiap garis memiliki lebar yang sama ( seperti di surat kabar dan majalah ). </p>
+    <p class="text-alignment-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nihil nobis officiis beatae perferendis ipsum voluptatibus rem repudiandae dolorem cupiditate eveniet error non blanditiis consequatur eius eum, veniam explicabo odio.</p>
+
+    <h2>Text Align Last ( Ratakan Teks Terakhir )</h2>
+    <p>properti <strong>text-align-last</strong> menentukan cara menyelaraskan baris terakhir teks. <br>
+    Contoh :
+    </p>
+    <h2>Text-align-last Property ( Perataan Teks Terakhir )</h2>
+
+    <h2>text-align-last: right</h2>
+    <p class="text-align-last-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste consequatur aliquid adipisci nam delectus quia!</p>
+
+    <h2>text-align-last: center</h2>
+    <p class="text-align-last-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit error ipsam quaerat eligendi, veniam corrupti!</p>
+
+    <h2>text-align-last: justify</h2>
+    <p class="text-align-last-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, excepturi voluptatum! Corrupti voluptas nostrum magni.</p>
+
+    <h2>Text-Direction ( Arah Teks )</h2>
+    <p>Properti <strong>direction</strong> dan <strong>onicode-bidi</strong> dapat digunakan untuk mengubah arah teks suatu elemen: <br>
+    Contoh :
+    </p>
+    <h2>properti text-direction</h2>
+    <p class="text-direction">Paragraph ini memiliki properti text-direction dengan value rtl, dan properti unicode-bidi dengan value bidi-override; </p>
+
+    <h2>Vertical Alignment ( Penyelarasan vertical ) </h2>
+    <p>Properti ini <strong>vertical-align</strong> Untuk mengatur perataan vertical suatu elemen. <br>
+    Contoh :
+    </p>
+    <h2>Properti vertical-align</h2>
+
+    <h2>vertical-align: baseline ( default )</h2>
+    <p>Sebuah <img class="vertical-align-1" src="/images/vertical-align-2.png" alt="gif" width="9" height="9"> Gambar ini menggunakan properti vertical-align: baseline</p>
+
+    <h2>vertical-align: text-top</h2>
+    <p>Sebuah <img class="vertical-align-2" src="/images/vertical-align-2.png" alt="gif" width="9" height="9"> Gambar ini menggunakan properti vertical-align: text-top</p>
+
+    <h2>vertical-align: text-bottom</h2>
+    <p>Sebuah <img class="vertical-align-3" src="/images/vertical-align-2.png" alt="gif" width="9" height="9"> Gambar ini menggunakna properti vetical-align: top-bottom</p>
+
+    <h2>vertical-align: sub</h2>
+    <p>Sebuah <img class="vertical-align-4" src="/images/vertical-align.gif" alt="gif" width="9" height="9"> Gambar ini menggunkana properti vertical-align: sub</p>
+
+    <h2>vertical-align: sup</h2>
+    <p>Sebuah <img class="vertical-align-5" src="/images/vertical-align.gif" alt="gif" width="9" height="9"> Gambar ini menggunakan properti vertical-align: sup</p>
+</body>
+</html>
