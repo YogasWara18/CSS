@@ -66,6 +66,41 @@
             text-decoration-color: red;
             text-decoration-style: wavy;
          }
+
+         /* Properti dan value text-decoration-thickness */
+         .text-decoration-thickness1 {
+            text-decoration-line: underline;
+            text-decoration-thickness: auto;
+         }
+
+         .text-decoration-thickness2 {
+            text-decoration-line: underline;
+            text-decoration-thickness: 5px;
+         }
+
+         .text-decoration-thickness3 {
+            text-decoration-line: underline;
+            text-decoration-thickness: 25%;
+         }
+
+         .text-decoration-thickness4 {
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration-style: double;
+            text-decoration-thickness: 5px;
+         }
+
+         /* Properti shorthand text-decoration */
+         .shorthand-property-text-decoration1 { text-decoration : underline; }
+
+         .shorthand-property-text-decoration2 { text-decoration : underline red; }
+
+         .shorthand-property-text-decoration3 { text-decoration : underline red double; }
+
+         .shorthand-property-text-decoration4 { text-decoration : underline red double 5px; }
+    
+         /* Property default text-decoration */
+         .default-text-decoration { text-decoration: none; }
     </style>
 </head>
 <body>
@@ -91,7 +126,7 @@
     <p class="text-decoration-4">Dekorasi menggunakan value text-decoration-line: overline underline ( garis atas dan garis bawah )</p>
     <p><strong>Catatan :</strong> Tidak disarankan untuk menggarisbawahi teks yang bukan tautan. Karena hal ini sering membingungkan pembaca.</p>
 
-    <h2>Menambahkan warna untuk text-decoration :</h2>
+    <h2>Menambahkan warna ( color ) untuk text-decoration :</h2>
     <p>Properti <strong>text-decoration-color</strong> ini digunakan untuk mengatur warna dan garis dekorasi.</p>
     <p class="text-decoration-color1">Text decoration menggunakan properti text-decoration-line & text-decoration-color value : overline & red ( Garis atas dengan warna merah )</p>
     <p class="text-decoration-color2">Text decoration menggunakan properti text-decoration-line & text-decoration-color value line-through & blue ( Garis melalui teks dengan warna biru )</p>
@@ -107,7 +142,31 @@
     <p class="text-decoration-style5">Teks decoration menggunakan properti text-decoration-line & text-decoration-style dengan value underline & wavy ( Garis dibawah teks dengan gaya bergelombang ( wavy ) )</p>
     <p class="text-decoration-style6">Text decoration menggunakan properti text-decoration-line & text-decoration-style & text-decoration-color dengan value underline & red & wavy ( Garis dibawah teks dengan warna merah dan gaya bergelombang ( wavy ) )</p>
 
+    <h2>Menambahkan Thickness ( ketebalan ) pada text-decoration :</h2>
+    <p>Properti ini <strong>text-decoration-thickness</strong> digunakan untuk mengatur ketebalan garis text-decoration.</p>
+    <p class="text-decoration-thickness1">Text decoration menggunakan properti text-decoration-line & text-decoration-thickness dengan value underline & auto ( Garis dibawah teks dengan ketebalan automatis )</p>
+    <p class="text-decoration-thickness2">Text decoration menggunakan properti text-decoration-line & text-decoration-thickness dengna value underline & 5px ( Garis dibawah teks dengan ketebalan 5px )</p>
+    <p class="text-decoration-thickness3">Text decoration menggunakan properti text-decoration-line & text-decoration-thickness dengan value underline & 25% ( Garis dibawah teks dengan ketebalan 25% )</p>
+    <p class="text-decoration-thickness4">Text decoration menggunakan properti text-decoration-line & text-decoration-thickness & text-decoration-color & text-decoration-style dengan value underline & red & double & 5px  ( Garis dibawah tesks dengan warna merah dan bergaya double dan ketebalan 5px )</p>
 
-    
+
+    <h2>Properti shorthand ( properti singkatan )</h2>
+    <p>Properti ini <strong>text-decoration</strong> merupakan singkatan dari :</p>
+    <ul>
+        <li>text-decoration-line ( Diperlukan )</li>
+        <li>text-decoration-color ( Optional )</li>
+        <li>text-decoration-style ( Optional )</li>
+        <li>text-decoration-thickness ( Optional )</li>
+    </ul>
+
+    <h2>Contoh shorthand properti</h2>
+    <p class="shorthand-property-text-decoration1">Text menggunakan properti shorthand dengan text-decoration & value underline ( Garis dibawah teks )</p>
+    <p class="shorthand-property-text-decoration2">Text menggunakan properti shorthand dengan text-decoration & value underline red ( Garis dibawah teks dan warna merah )</p>
+    <p class="shorthand-property-text-decoration3">Text menggunakan properti shorthand dengan text-decoration & value underline & red & double ( Garis dibawah teks dan warna merah dan gaya double )</p>
+    <p class="shorthand-property-text-decoration4">Text menggunakan properti shorthand dengan text-decoration & value underline & red & double & 5px ( Garis dibawah teks dan warna merah dan gaya double dan ketebalan 5px )</p>
+
+    <h2>Sebuah Tip kecil</h2>
+    <p class="default-text-decoration">Semua tautan dalam HTML digaris bawahi secara default. Terkadang anda melihat tautan diberi gaya tanpa garis bawah. Tanda kurung <strong>text-decoration: none;</strong> digunakan untuk menghapus garis bawah dari tautan, seperti ini : </p>
+
 </body>
 </html>
