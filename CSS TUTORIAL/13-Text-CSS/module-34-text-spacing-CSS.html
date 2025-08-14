@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Text Spacing</title>
     <style>
+        /* text-indent : menentukan indentasi baris pertama dalam blok teks */
         .text-indent { text-indent: 50px; }
+
+        /* letter-spacing : menentukan spasi antar karakter dalam teks */
+        .letter-spacing1 { letter-spacing: 5px; }
+
+        .letter-spacing2 { letter-spacing: -2px; }
+
+        /* line-height : menentukan spasi antar baris  */
+        .line-height1 { line-height: 0,7; }
+
+        .line-height2 { line-height: 2; }
+
+        /* word-spacing : menentukan spasi antar kata dalam teks */
+        .word-spacing1 { word-spacing: 10px; }
+
+        .word-spacing2 { word-spacing: -2px; }
     </style>
 </head>
 <body>
@@ -30,15 +46,59 @@
     <h2>Properti text-indent</h2>
     <p class="text-indent">Paragraph ini menggunakan text-indent dengan value 50px, maka posisi teks akan lebih maju kedepan sesuai dengan ukuran yang ditetapkan, atau jika nilai diberi dengan angka minus - maka posisi teks akan berada lebih kedalam  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur tempore suscipit quasi hic? Repellendus, voluptas!</p>
     
+    
     <h2>CSS Letter Spacing</h2>
     <p>Properti CSS digunakan untuk menentukan spasi antar karakter dalam teks. <strong>letter-spacing</strong> <br> <br>
     <strong>Tip :</strong> Nilai negatif diperbolehkan. <br>
     Contoh : <br>
     Menambahkan dan mengurangi spasi antar karakter :
     </p>
-    
+    <h2>Property letter-spacing</h2>
+    <h3 class="letter-spacing1">Contoh letter spacing dengan menggunakan nilai : 5px</h3>
+    <h3 class="letter-spacing2">Contoh letter spacing dengan menggunakan nilai : -2px</h3>
 
 
+    <h2>CSs line height</h2>
+    <p>Properti CSS <strong>line-height</strong> digunakan untuk menentukan spasi antar baris <br> <br>
+    <strong>Catatan :</strong> Nilai negatif tidak diizinkan. <br>
+    Contoh <br>
+    Tentukan spasi antar baris :
+    </p>
+    <h2>Property line-height</h2>
+    <p>Paragraph ini menggunakan nilai dengan line-height yang standart, line-height default di sebagian besat browser adalah sekitar 110% hingga 120%</p>
+    <p class="line-height1">Paragraph ini menggunakan nilai dengan line-height yang lebih kecil <br>
+    Ini adalah paragraph dengan line-height yang lebih kecil.
+    </p>
+    <p class="line-height2">Paragraph ini menggunakan nilai dengan line-height yang lebih besar <br>
+    Ini adalah paragraph dengan line-height yang lebih besar.
+    </p>
+
+
+    <h2>CSS Word Spacing</h2>
+    <p>Properti CSS <strong>word-spacing</strong> digunakan untuk menentukan spasi antar kata dalam teks. <br><br>
+    <strong>Tip :</strong> Nilai negatif diperbolehkan.
+    Contoh : <br>
+    Menambah dan mengurangi spasi antar kata :
+    </p>
+    <h2>Property word-spacing</h2>
+    <p>Ini adalah paragraph dengan word-spacing normal </p>
+    <p class="word-spacing1">Ini adalah paragraph dengan word-spacing yang lebih besar</p>
+    <p class="word-spacing2">Ini adalah paragraph dengan word-spacing yang lebih kecil</p>
+
+
+    <h2>CSS White Space</h2>
+    <p>Properti CSS <strong>white-space</strong> menentukan bagaimana spasi didalam suatu elemen ditangani. <br> <br>
+    Properti ini dapat memiliki salah satu nilai berikut : 
+    <ul>
+        <li>normal</li>
+        <li>nowrap</li>
+        <li>pre</li>
+        <li>pre-line</li>
+        <li>pre-wrap</li>
+    </ul>
+    Contoh : <br>
+    Cara menonaktifkan pembungkusan teks didalam elemen
+    </p>
 
 </body>
 </html>
