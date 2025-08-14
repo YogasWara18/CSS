@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts</title>
+    <style>
+        .note-font-family {
+            background-color: yellow;
+        }
+
+        .font-family1 { font-family: "Times New roman", Times, serif; }
+
+        .font-family2 { font-family: Arial, Helvetica, sans-serif; }
+
+        .font-family3 { font-family: "Lucida Console", "Courier New", monospace; }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Fonts</h1>
+    <h2>Pemilihan font itu penting</h2>
+    <p>Memilih font yang tepat memeiliki dampak besar pada bagaimana pembaca menikmati situs web. <br> <br>
+    Font yang tepat dapat menciptakan identitas yang kuat untuk merek anda. <br> <br>
+    Memilih font yang mudah dibaca itu penting. Font menambah nilai pada teks Anda. penting juga untuk memilih warna dan ukuran teks yang tepat untuk font tersebut. 
+    </p>
+
+    <h2>Properti font-family CSS</h2>
+    <p>Properti CSS <strong>font-family</strong> menentukan font untuk suatu elemen. <br> <br>
+    <strong>Tips :</strong> properti ini <strong>font-family</strong> sebaiknya menampung beberapa nama font sebagai sistem "fallback". Jika peramban tidak mendukung font pertama, peramban akan mencoba font berikutnya. Nama - nama font harus dipisahkan dengan koma. <br><br>
+    Selalu mulai dengan font yang anda inginkan, dan selalu diakhiri dengan keluarga generik, untuk membiarkan browser memeilih font yang serupa dalam keluarga generik, jika tidak ada font lain yang tersedia.
+    </p>
+
+    <div class="note-font-family">
+        <p> <strong>Catatan :</strong> Jika nama font lebih dari satu, harus diapit tanda kutip, seperti: "Times New Roman".</p>
+    </div>
+
+    <h2>Properti font-family</h2>
+    <p class="font-family1">Paragraph ini menggunakan properti font-family dengan value "Times New Roman", Times, Serif</p>
+    
+    <p class="font-family2">Paragraph ini menggunakan properti font-family dengan value Arial, Helvetica, sans-serif</p>
+
+    <p class="font-family3">Paragraph ini menggunakan properti font-family dengan value "Lucida Console", "Courier New", monospace;</p>
+
+    <h2>font-family umum ( Generic )</h2>
+    <p>Dalam CSS ada lima keluarga font generik :
+        <ol>
+            <li><strong>Serif</strong> memiliki goresan di tepi setiap huruf. Hal ini menciptakan kesan formalitas dan elegan.</li>
+            <li><strong>Sans-serif</strong> memiliki garis - garis yang bersih ( tanpa goresan kecil ). Font ini menciptakan tampilan modern dan minimalis.</li>
+            <li><strong>Monospace</strong> di sini semua huruf memiliki lebar tetap yang sama. Font ini menciptakan tampilan mekanis.</li>
+            <li><strong>Cursive</strong> meniru tulisan tangan manusia.</li>
+            <li><strong>Fantasy</strong> merupakan font yang bersifat dekoratif dan menyenangkan.</li>
+        </ol>
+        Semua nama font yang berbeda termasuk dalam salah satu font-family generic.
+    </p>
+
+</body>
+</html>
