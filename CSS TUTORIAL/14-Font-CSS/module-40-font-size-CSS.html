@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font Size</title>
+    <style>
+        /* Font Size : px */
+        .font-size-40px { font-size: 40px; }
+
+        .font-size-30px { font-size: 30px; }
+
+        .font-size-16px { font-size: 16px; }
+
+        /* Font Size : em */
+        .font-size-2-5em { font-size: 2.5em; }
+
+        .font-size-1-875em { font-size: 1.875em; }
+
+        .font-size-1em { font-size: 1em; }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Font Size</h1>
+    <p>Properti CSS <strong>font-size</strong> digunakan untuk menentukan ukuran teks/font. <br>
+    Mampu mengelola ukuran teks sangat penting dalam desain web. <br>
+    Namun, anda sebaiknya tidak menggunakan penyesuaian ukuran font untuk membuat paragraf tampak seperti judul, atau judul tampak seperti paragraf. selalu gunakan tag HTML yang tepat, seperti < h1 > - < h6 > untuk judul dan < p > untuk paragraf. <br>
+    Dapat <strong>font-size</strong> diatur ke ukuran absolut atau ukuran relatif. <br>
+    Ukuran absolut :
+    <ul>
+        <li><strong>px</strong> : Pixel menawarkan kontrol yang tetap dan tepat atas ukuran font .</li>
+        <li><strong>xx-small</strong>,<strong>x-small</strong>,<strong>small</strong>,<strong>medium</strong>,<strong>large</strong>,<strong>x-large</strong>,<strong>xx-large</strong> Kata kunci ini memiliki serangkaian ukuran yang telah ditentukan sebelumnya di browser.</li>
+    </ul>
+    Ukuran relatif :
+    <ul>
+        <li><strong>em</strong> : Unit ini relatif terhadap font element induk.</li>
+        <li><strong>rem</strong> : Unit ini relatif terhadap ukuran font elemen HTML root.</li>
+        <li><strong>%</strong> : Unit ini relatif terhadap ukuran font elemen induk.</li>
+        <li><strong>Smaller</strong> dan <strong>larger</strong> : Unit ini menyesuaikan ukuran font relatif terhadap elemen induk.</li>
+    </ul>
+    <br> <br>
+    <h2>Bagaimana memilih unit yang tepat?</h2>
+    <ul>
+        <li>Untuk kontrol yang tepat dan tepat, <strong>px</strong> dapat digunakan.</li>
+        <li>Dengan <strong>px</strong>, halaman web tidak akan berskala baik pada berbagai ukuran layar atau dengan preferensi pengguna.</li>
+        <li>Ukuran absolut dapat berguna ketika ukuran fisik keluaran diketahui.</li>
+        <li>Untuk desain web yang dapat diskalakan, gunakan <strong>em</strong> atau <strong>rem</strong> ; mereka memungkinkan pengguna untuk menyesuaikan ukuran teks di pengaturan browser mereka.</li>
+        <li>Persentase ( % ) dapat berguna untuk menyesuaikan ukuran font berdasarkan elemen induk.</li>
+    </ul>
+    <br><br>
+    <h2>Atur Ukuran Font Dengan Piksel</h2>
+    Mengatur ukuran teks dengan piksel ( px ) memberi anda kendali penuh atas ukuran teks. <br> <br>
+    Jika anda menggunakan piksel, halaman web mungkin tidak berskala dengan baik pada berbagai ukuran layar dan pengguna tidak dapat menyesuaikan ukuran teks di pengaturan peramban mereka. Namun, pengguna masih dapat menggunakan alat zoom untuk mengubah ukuran keseluruhan halaman. <br>
+    Contoh :
+    </p>
+    <h2>Properti font-size menggunakan value px</h2>
+    <h1 class="font-size-40px">Heading ini menggunakan properti font-size dengan value menggunakan px ( piksel ) 40px</h1>
+    
+    <h2 class="font-size-30px">Heading ini menggunakan properti font-size dengan value menggunakan px ( piksel ) 30px</h2>
+
+    <p class="font-size-16px">Paragraf ini menggunakan properti font-size dengan value menggunakan px ( piksel ) 16px</p>
+
+
+    <h2>Atur ukuran Font Dengan Em</h2>
+    <p>Satuannya <strong>em</strong> relatif terhadap ukuran font elemen induk. Jadi, jika elemen induk memiliki ukuran font 16 piksel, maka 2,5 piksel akan menghasilkan 40 piksel. <br> <br>
+    Pada contoh berikut, ukuran teks dalam <strong>em</strong> piksel sama dengan contoh sebelumnya. Namun, <strong>em</strong> satuan ini menmungkinkan pengguna untuk menyesuaikan ukuran teks di pengaturan peramban. <br>
+    Contoh :
+    </p>
+    <h2>Properti font-size menggunakan value em</h2>
+    <h1 class="font-size-2-5em">Heading ini menggunakan properti font-size dengna value menggunakan em</h1>
+
+    <h2 class="font-size-1-875em">Heading ini menggunakan properti font-size dengan value menggunakan em</h2>
+
+    <p class="font-size-1em">Paragraf ini menggunakan properti font-size dengan value menggunakan em</p>
+</body>
+</html>
