@@ -18,6 +18,16 @@
         .font-size-1-875em { font-size: 1.875em; }
 
         .font-size-1em { font-size: 1em; }
+
+        /* Font Size rem */
+        .font-size-rem1 { font-size: 2.5rem; }
+
+        .font-size-rem2 { font-size: 1.875rem; }
+
+        .font-size-rem3 { font-size: 1rem; }
+
+        /* Font Size VW */
+        .font-size-vw { font-size: 5vw; }
     </style>
 </head>
 <body>
@@ -73,5 +83,31 @@
     <h2 class="font-size-1-875em">Heading ini menggunakan properti font-size dengan value menggunakan em</h2>
 
     <p class="font-size-1em">Paragraf ini menggunakan properti font-size dengan value menggunakan em</p>
+
+
+    <h2>Atur ukuran Font Dengan Rem</h2>
+    <p>Satuannya <strong>rem</strong> relatif terhadap ukuran font elemen HTML akar ( < html > ) <br><br>
+    Berbeda dengan <strong>em</strong>, yang relatif terhadap ukuran font element induknya, `font <strong>rem</strong> -size` selalu mengacu pada ukuran font elemen < html >, terlepas dari posisinya di pohon dokumen. Hal ini <strong>rem</strong> sangat berguna untuk menciptakan desain yang skalabel dan responsif. Dengan mengubah ukuran font elemen < html >, semua elemen yang berukuran <strong>rem</strong> satuan akan diskalakan secara proporsional di seluruh halaman. <br><br>
+    Ukuran font default elemen < html > di sebagian besar peramban adalah 16 piksel. Jadi, secara default, 1rem sama dengan 16 piksel kecuali jika ditimpa secata eksplisit di CSS. <br>
+    Contoh :
+    </p>
+    <h2>Properti font-size menggunakan value rem</h2>
+    <h1 class="font-size-rem1">Heading ini menggunakan properti font-size dengan value 2.5rem</h1>
+
+    <h2 class="font-size-rem2">Heading ini menggunakan properti font-size dengan value 1.875rem</h2>
+
+    <p class="font-size-rem3">Paragraf ini menggunakan properti font-size dengan value 1rem</p>
+
+
+    <h2>The VW Unit</h2>
+    <p>Ukuran font juga dapat diatur dengan <strong>vw</strong> unit, yang berarti "lebar viewport". <br>
+    Satuan tersebut <strong>vw</strong> merupakan satuan relatif yang menyatakan persentase lebar area pandang. <br>
+    1vw = 1% dari lebar viewport browser saat ini. Jadi, jika lebar viewport 500 piksel, 1vw adalah 5 piksel. <br>
+    Dengan cara ini ukuran teks akan mengikuti ukuran jendela browser.
+    Contoh :
+    </p>
+    <h2>Properti font-size menggunakan value vw</h2>
+    <h1 class="font-size-vw">Heading ini menggunakan properti font-size dengan value vw</h1>
+
 </body>
 </html>
