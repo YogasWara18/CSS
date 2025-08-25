@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
     <style>
         /* Font Family "Sofia", sans-serif */
         .font-family-sans { font-family: "Sofia", sans-serif; }
@@ -28,6 +30,13 @@
         .font-family-audiowide2 { font-family: "Audiowide", sans-serif; }
         
         .font-family-audiowide3 { font-family: "Audiowide", sans-serif; }
+
+        /* Font Family Multiple Fonts */
+        .font-family-multiple1 { font-family: "Audiowide", sans-serif; }
+
+        .font-family-multiple2 { font-family: "Sofia", sans-serif; }
+
+        .font-family-multiple3 { font-family: "Trirong", serif; }
     </style>
 </head>
 <body>
@@ -67,8 +76,27 @@
 
     <p><strong>CATATAN :</strong> Saat menggunakan font di CSS, selalu cantumka minimal satu font fallback ( untuk menhidari perilaku yang tidak terduga ). Jadi, di sini anda juga harus menambahkan keluarga font generik ( seperti seerif atau sans-serif ) di akhir daftar</p>
 
-    
 
+    <h2>Gunakan beberapa font google</h2>
+    <p>Untuk menggunakan beberapa font google, pisahkan saja nama font dengan karakter pipa ( | ), seperti ini : <br>
+    Contoh :
+    </p>
+    <h2>Properti ini menggunakan Multiple Google Fonts </h2>
+    <h1 class="font-family-multiple1">Audiowide Font</h1>
+
+    <h1 class="font-family-multiple2">Sofia Font</h1>
+
+    <h1 class="font-family-multiple3">Trirong Font</h1>
+
+
+    <p><strong>Catatan :</strong> Meminta beberapa font dapat memperlambat halaman web Anda! Jadi, berhati - hatilah.</p>
+
+
+    <h2>Menata ( styling ) Google Fonts</h2>
+    <p>Tentu saja anda dapat menata Google Fonts sesuai keinginan, dengan CSS! <br>
+    Contoh :
+    </p>
+    
 
 </body>
 </html>
