@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    
     <style>
         /* Font Family "Sofia", sans-serif */
         .font-family-sans { font-family: "Sofia", sans-serif; }
@@ -55,6 +57,42 @@
             font-family: "Sofia", sans-serif;
             font-size: 30px;
             text-shadow: 3px 3px 3px #ababab;
+        }
+
+        /* Font Family Effect */
+        .font-effect-fire {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-fire {
+            font-family: "Sofia", sans-serif;
+            font-size: 40px; 
+        }
+
+        .font-effect-fire { 
+            font-family: "Sofia", sans-serif;
+            font-size: 50px;
+        }
+
+        .font-effect-neon {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-outline {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-emboss {
+            font-family: "Sofia", sans-serif;
+            font-size: 20px;
+        }
+
+        .font-effect-shadow-multiple {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
         }
     </style>
 </head>
@@ -120,6 +158,29 @@
     <p class="font-family-styling2">Paragraf ini menggunakan properti font-family dengan styling dan value Sofia font</p>
 
     <p class="font-family-styling3">12345678910</p>
+
+
+    <h2>Mengaktifkan efek font</h2>
+    <p>Google juga telah mengaktifkan berbagai efek font yang dapat Anda gunakan. <br>
+    Pertama, tambahkan ke Google API, lalu tambahkan nama kelas khusus ke elmen yang akan menggunakan efek khusus tersebut. Nama kelas selalu diawali dan diakhiri dengan <strong>.effect=effectname font-effect- effectname</strong> <br>
+    Contoh :
+    </p>
+    <h1 class="font-effect-fire">Heading ini menggunakan properti font-family dengan value "Sofia", sans-serif & mengaktifkan effectnya</h1>
+
+    <p class="font-effect-fire">Paragraf ini menggunakan properti font-family dengan value "Sofia", sans-serif & mengaktifkan effectnya</p>
+
+    <p class="font-effect-fire">12345678910</p>
+
+    <p>Untuk meminta beberapa efek font, pisahkan saja nama efek dengan karakter pipa ( | ) <br>
+    Contoh :
+    </p>
+    <h1 class="font-effect-neon">Heading ini menggunakan properti font-family dengan value "Sofia", sans-serif dengan effect Neon</h1>
+
+    <h2 class="font-effect-outline">Heading ini menggunakan peoperti font-family dengan value "Sofia", sans-serif dan effect outline</h2>
+
+    <h2 class="font-effect-emboss">Heading ini menggunakan properti font-family dengan value "Sofia", sans-serif dan effect emboss</h2>
+
+    <h2 class="font-effect-shadow-multiple">Heading ini menggunakan properti font-family dengan value "Sofia", sans-serif dan effect shadow-multiple</h2>
 
 </body>
 </html>
