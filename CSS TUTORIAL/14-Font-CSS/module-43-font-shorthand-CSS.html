@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font Property</title>
+    <style>
+        /* Shorthand Font */
+        .font-shorthand1 { font: 20px Arial, sans-serif; }
+
+        .font-shorthand2 { font: italic bold 16px Arial, sans-serif; }
+        
+        .font-shorthand3 { font: italic small-caps bold 15px/30px Georgia, serif;}
+    </style>
+</head>
+<body>
+
+    <h1>The CSS Font Shorthand Property</h1>
+    <p>Untuk mempersingkat kode, dimungkinkan untuk menentukan semua properti font individual dalam satu deklarasi <br>
+    Properti CSS <strong>font</strong> adalah properti singkatan untuk :
+    <ul>
+        <li><strong>font-style</strong></li>
+        <li><strong>font-variant</strong></li>
+        <li><strong>font-weight</strong></li>
+        <li><strong>font-stretch</strong></li>
+        <li><strong>font-size</strong></li>
+        <li><strong>line-height</strong></li>
+        <li><strong>font-family</strong></li>
+    </ul>
+    </p>
+    <h2>Aturan untuk Properti CSS Shorthand</h2>
+    <ol>
+        <li>Nilai <strong>font-size</strong> dan <strong>font-family</strong> wajib diisi. Jika salah satu nilai lainnya tidak ada, milai defaultnya akan digunakan.</li>
+        <li>Jika didefinisikan, dan harus mendahului <strong>font-style font-variant font-weight font-size</strong></li>
+        <li>Jika didefinisikan, harus segera mengikuti, didahului oleh "/", seperti ini: 15px/30px. <strong>line-height font-size</strong></li>
+        <li><strong>font-family</strong> harus menjadi nilai terakhir yang ditentukan.</li>
+    </ol>
+    <h2>The font Shorthand Property</h2>
+    <p class="font-shorthand1">Paragraph ini menggunakan property shorthand font dengan value font-size & font-family : 20px Arial, sans-serif;</p>
+    
+    <p class="font-shorthand2">Paragraph ini menggunakan property shorthand font dengan value font-variant font-style font-size font-family : italic bold 16px Arial, sans-serif;</p>
+
+    <p class="font-shorthand3">Paragraph ini menggunakan property shorthand font dengan value font-variant font-stretch font-style font-size font-weight font-family : italic small-caps bold 15px/30px Georgia, serif;</p>
+
+</body>
+</html>
