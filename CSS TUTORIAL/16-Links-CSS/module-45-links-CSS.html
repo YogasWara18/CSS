@@ -5,11 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Links</title>
     <style>
+        /* Membuat link */
         .link-style a {
             color: springgreen;
             background-color: black;
             font-weight: bold;
             text-decoration: none;
+        }
+
+        /* Membuat style link */
+        .link-style-on-status a:link {
+            color: red;
+        }
+
+        .link-style-on-status a:visited {
+            color: greenyellow;
+        }
+
+        .link-style-on-status a:hover {
+            color: gold;
+        }
+
+        .link-style-on-status a:active {
+            color: blue;
+        }
+
+        /* Membuat style link dan mengatur text-decoration */
+        .link-style-decoration a:link {
+            text-decoration: none;
+        }
+
+        .link-style-decoration a:visited {
+            text-decoration: none;
+        }
+
+        .link-style-decoration a:hover {
+            text-decoration: underline;
+        }
+
+        .link-style-decoration a:active {
+            text-decoration: underline;
+        }
+
+        /* membuat style link dan mengatur background-color */
+        .link-style-background a:link {
+            background-color: yellow;
+        }
+
+        .link-style-background a:visited {
+            background-color: goldenrod;
+        }
+
+        .link-style-background a:hover {
+            background-color: aqua;
+        }
+
+        .link-style-background a:active {
+            background-color: red;
         }
     </style>
 </head>
@@ -23,5 +75,42 @@
     <h2>Cara membuat style pada link</h2>
     <p class="link-style"><a href="default.asp" target="_blank">This is a link</a></p>
     
+
+    <h2>Styling Links Depending on State</h2>
+    <p>Selain itu, links dapat diberi gaya berbeda, bergantung pada Negara tempat link itu berada. <br><br>
+    Empat status links tersebut adalah : <br>
+    <ul>
+        <li><strong>:link</strong> - link normal yang belum dikunjungi</li>
+        <li><strong>:visited</strong> - link yang telah dikunjungi pengguna</li>
+        <li><strong>:hover</strong> - link saat pengguna mengarahkan kursor ke atasnya</li>
+        <li><strong>:active</strong> link saat diklik</li>
+    </ul>
+    <br>
+    Saat mengatur gaya untuk status link, ada beberapa aturan urutan : 
+    <ul>
+        <li>:hover harus datang setelah :link dan :visited </li>
+        <li>:active harus datang setelah :hover </li>
+    </ul>
+    <br>
+    Contoh : <br>
+    Style link berdasarkan status link :
+    </p>
+    <h2>style link dengan statusnya</h2>
+
+    <p class="link-style-on-status"><a href="default.asp" target="_blank">This is a link</a></p>
+
+
+    <h2>CSS Links - Text Decoration</h2>
+    <p>Properti <strong>text-decoration</strong> ini sebagian besar digunakan untuk menghapus garis bawah dari tautan :</p>
+    <p class="link-style-decoration"><a href="default.asp" target="_blank">This is a link</a></p>
+
+
+    <h2>Link CSS - Background-Color</h2>
+    <p>Properti ini <strong>background-color</strong> dapat digunakan untuk menentukan warna latar belakang untuk links : <br><br>
+    Contoh : 
+    </p>
+    <h2>Style link dan background-color</h2>
+    <p class="link-style-background"><a href="default.asp" target="_blank">This is a links</a></p>
+
 </body>
 </html>
