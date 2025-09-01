@@ -63,6 +63,20 @@
         .link-style-background a:active {
             background-color: red;
         }
+
+        /* Menggabungkan properti untuk membuat sebuah link tombol/kotak */
+        .link-gabungan-properti a:link, a:visited {
+            background-color: #4Caf50;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .link-gabungan-properti a:hover, a:active {
+            background-color: aqua;
+        }
     </style>
 </head>
 <body>
@@ -111,6 +125,15 @@
     </p>
     <h2>Style link dan background-color</h2>
     <p class="link-style-background"><a href="default.asp" target="_blank">This is a links</a></p>
+
+
+    <h2>Tombol link CSS</h2>
+    <p>CSS dapat digunakan untuk membuat tombol link HTML : <br>
+    Contoh : <br>
+    Gabungkan beberapa properti CSS untuk menampilkan link sebagai kotak/tombol
+    </p>
+    <h2>Link button</h2>
+    <p class="link-gabungan-properti">Menggabungkan properti untuk membuat tombol link <a href="default.asp" target="_blank">Ini adalah tombol properti yang digabungkan</a></p>
 
 </body>
 </html>
