@@ -92,6 +92,28 @@
             background-color: blueviolet;
             color: white;
         }
+
+        /* Styling links */
+        a.one:link { color: red; }
+        a.one:visited { color: blue; }
+        a.one:hover { color: green; }
+
+        a.two:link { font-size: 20px; }
+        a.two:visited { font-size: 30px; }
+        a.two:hover { font-size: 50px; }
+
+        a.three:link { background-color: yellow; }
+        a.three:visited { background-color: silver; }
+        a.three:hover { background-color: black; }
+
+        a.four:link { font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+        a.four:visited { font-family:'Times New Roman', Times, serif; }
+        a.four:hover { font-family:Arial, Helvetica, sans-serif; }
+
+        a.five:link { color: blue; text-decoration: none; }
+        a.five:visited { color: greenyellow; text-decoration: none; }
+        a.five:hover { color: red; text-decoration: underline;}
+        
     </style>
 </head>
 <body>
@@ -149,8 +171,18 @@
     </p>
     <h2>Link button</h2>
     <p class="link-gabungan-properti">Menggabungkan properti untuk membuat tombol link <a href="default.asp" target="_blank">Ini adalah tombol properti yang digabungkan</a></p>
+    
     <p class="link-gabungan-properti2">Menggabungkan properti untuk membuat link tombol <a href="default.asp" target="_blank">Ini adalah link tombol gabungan</a></p>
 
+    <h2>Styling Links</h2>
+    <p>Link ini mengatur gaya dari link <a class="one" href="default.asp" target="_blank">Link ini menggunakan styling untuk mengubah warna</a></p>
 
+    <p>Link ini mengatur gaya dari link <a class="two" href="default.asp" target="_blank">Link ini menggunakan styling untuk mengubah ukuran font</a></p>
+
+    <p>Link ini mengatur gaya dari link <a class="three" href="default.asp" target="_blank">Link ini menggunakan styling untuk mengubah background-color</a></p>
+
+    <p>Link ini mengatur gaya dari link <a class="four" href="default.asp" target="_blank">Link ini menggunakan styling untuk mengubah font family</a></p>
+
+    <p>Link ini mengatur gaya dari link <a class="five" href="default.asp" target="_blank">Link ini menggunakan styling untuk mengubah text decoration</a></p>
 </body>
 </html>
