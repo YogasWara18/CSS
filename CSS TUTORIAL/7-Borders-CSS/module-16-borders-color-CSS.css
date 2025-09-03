@@ -1,0 +1,31 @@
+        p.one {
+            border-style: solid;
+            border-color: red;
+        }
+        p.two {
+            border-style: solid;
+            border-color: green;
+        }
+        p.three {
+            border-style: dotted;
+            border-color: blue;
+        }
+        p.four {
+            border-style: solid;
+            border-color: red green blue yellow;
+        }
+
+        p.hex {
+            border-style: solid;
+            border-color: #ff0000;
+        }
+
+        p.rgb {
+            border-style: dashed;
+            border-color: rgb(255, 0, 0);
+        }
+
+        p.hsl {
+            border-style: double;
+            border-color: hsl(0, 100%, 50%);
+        }
