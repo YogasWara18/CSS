@@ -1,0 +1,5 @@
+        p.border-shorthand { border: 5px solid green; }
+
+        p.border-left { border-left: 6px solid blue; }
+
+        p.border-bottom { border-bottom: 7px solid yellow; }

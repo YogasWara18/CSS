@@ -1,0 +1,27 @@
+        p.normal { 
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        p.round1 {
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        p.round2 {
+            border: 2px solid red;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        p.round3 {
+            border: 2px solid red;
+            border-radius: 12px;
+            padding: 5px;
+        }
+
+        table.all-properties-border { 
+            text-align: center;
+            background-color: darkgrey;
+        }

@@ -1,0 +1,25 @@
+    p.border-sides {
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+    }
+
+    p.border-sides-shorthand { border-style: dotted solid; }
+
+    /* Four values */
+    p.four { border-style: dotted solid double dashed; }
+
+    /* Three values */
+    p.three { border-style: dotted solid double; }
+
+    /* Two values */
+    p.two { border-style: dotted solid; }
+
+    /* One values */
+    p.one { border-style: dotted; }
+
+    p.caution { 
+        background-color: darkorange;
+        display: inline;
+     }
