@@ -26,3 +26,36 @@
 
         .list-style-position-inside { list-style-position: inside; }
     
+        /* List Style Type None ( menghapus daftar list ) */
+        .list-style-type-none {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* List style Shorthand */
+        .list-style-shorthand { list-style: square inside url('https://www.w3schools.com/cssref/smiley.gif'); }
+
+        /* List Style Color */
+        .list-style-color1 {
+            background: salmon;
+            padding: 20px;
+        }
+
+        .list-style-color1 li {
+            background: mistyrose;
+            color: darkred;
+            padding: 10px;
+            margin-left: 20px;
+        }
+
+        .list-style-color2 {
+            background: powderblue;
+            padding: 20px;
+        }
+
+        .list-style-color2 li {
+            background: mistyrose;
+            color: darkblue;
+            margin: 5px;
+        }
