@@ -1,0 +1,49 @@
+
+        /* font-family */
+        .font-family { font-family: Tahoma, Verdana, sans-serif; }
+
+        /* Arial */
+        .arial-font { font-family: Arial, sans-serif; }
+
+        .arial-number { font-family: Arial, sans-serif; }
+
+        /* Verdana */
+        .verdana-font { font-family: Verdana, sans-serif; }
+
+        .verdana-number { font-family: Verdana, sans-serif; }
+
+        /* Tahoma */
+        .tahoma-font { font-family: Tahoma, sans-serif; }
+
+        .tahoma-number { font-family: Tahoma, sans-serif; }
+
+        /* Trebuchet MS */
+        .trebuchet-font { font-family: Trebuchet, sans-serif; }
+
+        .trebuchet-number { font-family: Trebuchet, sans-serif; }
+
+        /* Times New Roman */
+        .times-new-roman-font { font-family: 'Times New Roman', sans-serif; }
+
+        .times-new-roman-number { font-family: 'Times New Roman', sans-serif; }
+
+        /* Georgia */
+        .georgia-font { font-family: Georgia, sans-serif; }
+
+        .georgia-number { font-family: Georgia, sans-serif; }
+
+        /* Garamond */
+        .garamond-font { font-family: Garamond, sans-serif; }
+
+        .garamond-number { font-family: Garamond, sans-serif; }
+        
+        /* Courier New */
+        .courier-new-font { font-family: 'Courier New', sans-serif; }
+
+        .courier-new-number { font-family: 'Courier New', sans-serif; }
+
+        /* Brush Script MT */
+        .brush-script-font { font-family: 'Brush Script MT', cursive; }
+
+        .brush-script-number { font-family: 'Brush Script MT', cursive; }
+    

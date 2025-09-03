@@ -1,0 +1,98 @@
+
+        /* Properti dan value text-decoration-line */
+        .text-decoration-1 { text-decoration-line: overline; }
+
+        .text-decoration-2 { text-decoration-line: line-through; }
+
+        .text-decoration-3 { text-decoration-line: underline; }
+
+        .text-decoration-4 { text-decoration-line: overline underline; }
+
+        /* Properti dan value text-decoration-color */
+        .text-decoration-color1 { 
+            text-decoration-line: overline;
+            text-decoration-color: red;
+         }
+
+         .text-decoration-color2 {
+            text-decoration-line: line-through;
+            text-decoration-color: blue;
+         }
+
+         .text-decoration-color3 {
+            text-decoration-line: underline;
+            text-decoration-color: green;
+         }
+
+         .text-decoration-color4 {
+            text-decoration-line: overline underline;
+            text-decoration-color: purple;
+         }
+
+         /* Property dan value text-decoration-style */
+         .text-decoration-style1 {
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+         }
+
+         .text-decoration-style2 {
+            text-decoration-line: underline;
+            text-decoration-style: double;
+         }
+
+         .text-decoration-style3 {
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+         }
+
+         .text-decoration-style4 {
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+         }
+
+         .text-decoration-style5 {
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+         }
+
+         .text-decoration-style6 {
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration-style: wavy;
+         }
+
+         /* Properti dan value text-decoration-thickness */
+         .text-decoration-thickness1 {
+            text-decoration-line: underline;
+            text-decoration-thickness: auto;
+         }
+
+         .text-decoration-thickness2 {
+            text-decoration-line: underline;
+            text-decoration-thickness: 5px;
+         }
+
+         .text-decoration-thickness3 {
+            text-decoration-line: underline;
+            text-decoration-thickness: 25%;
+         }
+
+         .text-decoration-thickness4 {
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration-style: double;
+            text-decoration-thickness: 5px;
+         }
+
+         /* Properti shorthand text-decoration */
+         .shorthand-property-text-decoration1 { text-decoration : underline; }
+
+         .shorthand-property-text-decoration2 { text-decoration : underline red; }
+
+         .shorthand-property-text-decoration3 { text-decoration : underline red double; }
+
+         .shorthand-property-text-decoration4 { text-decoration : underline red double 5px; }
+    
+         /* Property default text-decoration */
+         .default-text-decoration { text-decoration: none; }
+    

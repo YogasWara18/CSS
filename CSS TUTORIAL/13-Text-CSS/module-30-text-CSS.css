@@ -1,0 +1,45 @@
+
+        div {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #008CBa;
+        }
+
+        h2.text-color {
+            color: lightcoral;
+        }
+
+        .text-color-name {
+            color:burlywood;
+        }
+
+        h2.background-color-text {
+            background-color:#4CAF50;
+            color: black;
+        }
+
+        .background-color-text2 {
+            background-color:aqua;
+            color: black;
+        }
+
+        .caution-text-color {
+            background-color:blanchedalmond;
+            color: black;
+        }

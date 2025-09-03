@@ -1,0 +1,84 @@
+
+        /* Font Family "Sofia", sans-serif */
+        .font-family-sans { font-family: "Sofia", sans-serif; }
+
+        .font-family-paragraf { font-family: "Sofia", sans-serif; }
+
+        .font-family-number { font-family: "Sofia", sans-serif; }
+
+        /* Font Family "Trirong", sans */
+        .font-family-trirong1 { font-family: "Trirong", serif; }
+
+        .font-family-trirong2 { font-family: "Trirong", serif; }
+
+        .font-family-trirong3 { font-family: "Trirong", serif; }
+
+        /* Font Family "Audiowide", sans-serif */
+        .font-family-audiowide1 { font-family: "Audiowide", sans-serif; }
+
+        .font-family-audiowide2 { font-family: "Audiowide", sans-serif; }
+        
+        .font-family-audiowide3 { font-family: "Audiowide", sans-serif; }
+
+        /* Font Family Multiple Fonts */
+        .font-family-multiple1 { font-family: "Audiowide", sans-serif; }
+
+        .font-family-multiple2 { font-family: "Sofia", sans-serif; }
+
+        .font-family-multiple3 { font-family: "Trirong", serif; }
+
+        /* Font Family dengan styling */
+        .font-family-styling1 {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+            text-shadow: 3px 3px 3px #ababab;
+        }
+
+        .font-family-styling2 {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+            text-shadow: 3px 3px 3px #ababab;
+        }
+
+        .font-family-styling3 {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+            text-shadow: 3px 3px 3px #ababab;
+        }
+
+        /* Font Family Effect */
+        .font-effect-fire {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-fire {
+            font-family: "Sofia", sans-serif;
+            font-size: 40px; 
+        }
+
+        .font-effect-fire { 
+            font-family: "Sofia", sans-serif;
+            font-size: 50px;
+        }
+
+        .font-effect-neon {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-outline {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+
+        .font-effect-emboss {
+            font-family: "Sofia", sans-serif;
+            font-size: 20px;
+        }
+
+        .font-effect-shadow-multiple {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+        }
+    

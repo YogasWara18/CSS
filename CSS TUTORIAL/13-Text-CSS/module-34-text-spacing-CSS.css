@@ -1,0 +1,28 @@
+
+        /* text-indent : menentukan indentasi baris pertama dalam blok teks */
+        .text-indent { text-indent: 50px; }
+
+        /* letter-spacing : menentukan spasi antar karakter dalam teks */
+        .letter-spacing1 { letter-spacing: 5px; }
+
+        .letter-spacing2 { letter-spacing: -2px; }
+
+        /* line-height : menentukan spasi antar baris  */
+        .line-height1 { line-height: 0,7; }
+
+        .line-height2 { line-height: 2; }
+
+        /* word-spacing : menentukan spasi antar kata dalam teks */
+        .word-spacing1 { word-spacing: 10px; }
+
+        .word-spacing2 { word-spacing: -2px; }
+
+        /* white-space : menentukan bagaimana spasi didalam suatu elemen ditangani */
+        .white-space-nowrap { white-space: nowrap; }
+
+        .white-space-pre { white-space: pre; }
+
+        .white-space-pre-line { white-space: pre-line; }
+
+        .white-space-pre-wrap { white-space: pre-wrap; }
+    

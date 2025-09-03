@@ -1,0 +1,8 @@
+
+        /* Shorthand Font */
+        .font-shorthand1 { font: 20px Arial, sans-serif; }
+
+        .font-shorthand2 { font: italic bold 16px Arial, sans-serif; }
+        
+        .font-shorthand3 { font: italic small-caps bold 15px/30px Georgia, serif;}
+    

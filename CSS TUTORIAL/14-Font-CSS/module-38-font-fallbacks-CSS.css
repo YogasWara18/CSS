@@ -1,0 +1,26 @@
+
+        /* Serif Fonts */
+        .serif-fonts1 { font-family: 'Times New Roman', Times, serif; }
+
+        .serif-fonts2 { font-family: Georgia, serif; }
+
+        .serif-fonts3 { font-family: Garamond, serif; }
+
+        /* Sans-serif Fonts */
+        .sans-serif-fonts1 { font-family: Arial, Helvetica, sans-serif; }
+
+        .sans-serif-fonts2 { font-family: Tahoma, Verdana, sans-serif; }
+
+        .sans-serif-fonts3 { font-family: 'Trebuchet MS', Helvetica, sans-serif; }
+
+        .sans-serif-fonts4 { font-family: Geneva, Verdana, sans-serif; }
+
+        /* Monospace Fonts */
+        .monospace-fonts { font-family: 'Courier New', Courier, monospace; }
+
+        /* Cursive Fonts */
+        .cursive-fonts { font-family: 'Brush Script MT', cursive; }
+
+        /* Fantasy Fonts */
+        .fantasy-fonts { font-family: Copperplate, Papyrus, fantasy; }
+    
