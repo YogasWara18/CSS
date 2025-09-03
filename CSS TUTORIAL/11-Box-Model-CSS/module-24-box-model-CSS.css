@@ -1,0 +1,27 @@
+  
+        .box-model {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid black;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        .caution-width-height {
+            background-color:blanchedalmond;
+            display: inline;
+        }
+
+        .total-width-height {
+            width: 320px;
+            height: 50px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+        }
+
+        .caution {
+            background-color:bisque;
+            display: inline;
+        }
+    

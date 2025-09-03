@@ -1,0 +1,65 @@
+ 
+        .padding { padding: 70px; }
+
+        .padding-individual {
+            border: 1px solid green;
+            background-color: aqua;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .padding-shorthand-4values {
+            border: 1px solid blue;
+            background-color:bisque;
+            padding: 25px 50px 75px 100px;
+        }
+
+        .padding-shorthand-3values {
+            border: 1px solid green;
+            background-color:aquamarine;
+            padding: 25px 50px 75px;
+        }
+
+        .padding-shorthand-2values {
+            border: 1px solid yellow;
+            background-color:lime;
+            padding: 25px 50px;
+        }
+
+        .padding-shorthand-1value {
+            border: 1px dashed blue;
+            background-color:brown;
+            padding: 25px;
+        }
+
+        .padding-element-width {
+            width: 300px;
+            padding: 25px;
+            border: 2px dashed black;
+        }
+
+        .padding-box-sizing {
+            border: 1px solid red;
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .padding { padding-left: 2cm; }
+
+        .padding2 { padding-left: 50%; }
+
+        .padding-right { padding-right: 2cm; }
+
+        .padding-right2 { padding-right: 50%; }
+
+        .padding-top { padding-top: 2cm; }
+
+        .padding-top2 { padding-top: 50%; }
+
+        .padding-bottom { padding-bottom: 2cm; }
+
+        .padding-bottom2 { padding-bottom: 50%; }
+    

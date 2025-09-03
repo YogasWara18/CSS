@@ -1,0 +1,31 @@
+
+        .outline {
+            border: 2px solid black;
+            outline: #0000ff solid 15px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .caution-outline {
+            background-color:bisque;
+            display: inline;
+        }
+
+        p { outline-color:greenyellow;}
+
+        .dotted { outline-style: dotted; }
+
+        .dashed { outline-style: dashed; }
+
+        .solid { outline-style: solid; }
+
+        .double { outline-style: double; }
+
+        .groove { outline-style: groove; }
+
+        .ridge { outline-style: ridge; }
+
+        .inset { outline-style: inset; }
+
+        .outset { outline-style: outset; }
