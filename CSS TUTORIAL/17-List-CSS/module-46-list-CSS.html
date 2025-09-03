@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS List</title>
+    <style>
+        /* List Style Type ul ( unordered list ) */
+        .list-style-type1 { list-style-type: circle; }
+
+        .list-style-type2 { list-style-type: disc; }
+
+        .list-style-type3 { list-style-type: square; }
+
+        /* List Style Type ol ( ordered list ) */
+        .list-style-type4 { list-style-type: upper-roman; }
+
+        .list-style-type5 { list-style-type: lower-roman; }
+
+        .list-style-type6 { list-style-type: lower-alpha; }
+
+        .list-style-type7 { list-style-type: decimal; }
+
+        /* List Style Image  */
+        .list-style-image1 { 
+            list-style-image: url('https://www.w3schools.com/cssref/smiley.gif');
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>List CSS ( Daftar CSS ) </h1>
+
+    <h2>Daftar List yang tidak berurutan : </h2>
+    <ul>
+        <li>kopi</li>
+        <li>teh</li>
+        <li>coca - cola</li>
+    </ul>
+
+    <h2>Daftar list yang diurutkan : </h2>
+    <ol>
+        <li>Kopi</li>
+        <li>Teh</li>
+        <li>Coca - cola</li>
+    </ol>
+
+    <h2>List style CSS ( Daftar Gaya CSS )</h2>
+    <p>Dalam HTML, ada dua jenis utama list daftar : <br>
+        <ul>
+            <li> < ul > - daftar list tidak berurutan ( item daftar ditandai dengan poin hitam ) </li>
+            <li> < ol > - daftar berurutan ( item dafatar ditandai dengan angka atau huruf ) </li>
+        </ul>
+        <br>
+        <br>
+        CSS memiliki properti berikut untuk menata daftar HTML : <br>
+        <ul>
+            <li><strong>list-style-type</strong> - Menentukan jenis penanda item daftar</li>
+            <li><strong>list-style-image</strong> - Menentukan gambar sebagai penanda item daftar</li>
+            <li><strong>list-style-position</strong> - Menentukan posisi penanda item daftar</li>
+            <li><strong>list-style</strong> - Properti singkatan untuk properti di atas</li>
+        </ul>
+        <br>
+        <br>
+        <h2>Penanda Daftr Item Gaya CSS</h2>
+        Properti CSS <strong>list-style-type</strong> menentukan jenis penanda item daftar dalam suatu daftar. <br>
+        Contoh berikut menunjukkan beberapa penanda item daftar yang tersedia :
+    </p>
+    <h2>The list-style-type Property</h2>
+    <p>Contoh List dafatr tidak berurutan :</p>
+    <ul class="list-style-type1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar ini menggunakan value : circle</li>
+    </ul>
+
+    <ul class="list-style-type2">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar ini menggunakan value : disc</li>
+    </ul>
+
+    <ul class="list-style-type3">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar ini menggunakan valur : square</li>
+    </ul>
+
+    <h2>Contoh list daftar yang berurutan : </h2>
+    <ol class="list-style-type4">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar berurutan ini menggunakan value : upper-roman</li>
+    </ol>
+
+    <ol class="list-style-type5">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar berurutan ini menggunakan value : lower-roman</li>
+    </ol>
+
+    <ol class="list-style-type6">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar berurutan ini menggunakna value : lower-alpha</li>
+    </ol>
+
+    <ol class="list-style-type7">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+        <li>List daftar berurutan ini menggunakan value : decimal</li>
+    </ol>
+
+    <p><strong>Catatan :</strong>Beberapa nilai berlaku untuk daftar tak berurutan, dan beberapa berlaku untuk daftar berurutan.</p>
+
+
+
+    <h2>CSS Mengganti penanda item dafatar dengan gambar</h2>
+    <p>Properti CSS <strong>list-style-image</strong> digunakan untuk mengganti penanda item daftar dengan gambar. <br>
+    <strong>Catatan :</strong> Selalu tentukan <strong>list-style-type</strong> properti tambahan. Properti ini digunakan jika gambar tidak tersedia karena suatu alasan. <br>
+    Contoh : <br>
+    Ganti penanda item daftar dengan gambar :
+    </p>
+    <h2>The list-style-image property</h2>
+    <p>Properti list-style-image menentukan gambar sebagai penanda item daftar :</p>
+    <ul class="list-style-image1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca - cola</li>
+    </ul>
+
+</body>
+</html>
