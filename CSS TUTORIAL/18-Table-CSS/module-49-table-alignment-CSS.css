@@ -1,0 +1,9 @@
+/* Table dengan Properti text-align */
+.table-text-align, td, th { border: 1px solid red; }
+
+.table-text-align { 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td { text-align: center; }
