@@ -27,3 +27,30 @@ th {
 
 /* Table with border and color properties */
 .table-border-color, th, td { border: 1px solid green; }
+
+/* Table with value collapse properties */
+.table-collapse, th, td { border: 1px,solid; }
+
+.table-collapse { border-collapse: collapse; }
+
+/* Table with border and padding properties */
+.table-padding, td, th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table-padding { border-collapse: collapse; }
+
+/* Table with border-spacing properties */
+#table1 {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+#table2 {
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+}
+
+/* Table with single border properties */
+.table-single-border, td, th { border: 1px solid; }

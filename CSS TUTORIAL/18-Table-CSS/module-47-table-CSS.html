@@ -118,8 +118,120 @@
         </tr>
     </table>
 
+    <h2>Mengapa Batas Ganda?</h2>
+    <p>Perhatikan bahwa tabel pada contoh di atas memiliki batas ganda. Hal ini disebabkan oleh elemen < table >, < th >, dan < td > yang memiliki batas terpisah . <br>
+    Untuk menghapus batas ganda, lihat contoh dibawah ini.
+    </p>
 
-    
+
+
+    <h2>CSS Collapse Table Borders ( Batas Tabel ciutkan CSS ) </h2>
+    <p>Properti CSS <strong>border-collapse</strong> menentukan apakah batas tabel akan diciutkan menjadi satu batas tunggal atau dipisahkan seperti pada HTML standar. <br>
+    Properti ini dapat memiliki salah satu nilai berikut : <br>
+    <ul>
+        <li><strong>Separate</strong> - Nilai default. Batas dipisahkan; setiap sel akan menampilkan batasnya sendiri</li>
+        <li><strong>Collapse</strong> - Batas - batas dilipat menjadi satu batas jika memungkinkan</li>
+    </ul>
+    Tabel berikut ini telah menciutkan batasnya :
+    </p>
+    <h2>Property table ini menggunakan value collapse</h2>
+
+    <table class="table-collapse">
+        <tr>
+            <th>Fristname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Petrus</td>
+            <td>Lois</td>
+        </tr>
+        <tr>
+            <td>Grifon</td>
+            <td>Grifon</td>
+        </tr>
+    </table>
+
+
+
+    <h2>CSS Table Padding</h2>
+    <p>Untuk mengontrol ruang antara batas dan konten dalam tabel, gunakan <strong>padding</strong> properti pada elemen < td > dan < th > :</p>
+    <h2>properti table with padding</h2>
+    <table class="table-padding">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Petrus</td>
+            <td>Lois</td>
+        </tr>
+        <tr>
+            <td>Grifon</td>
+            <td>Grifon</td>
+        </tr>
+    </table>
+
+
+
+    <h2>CSS Border Spacing</h2>
+    <p>Properti CSS <strong>border-spacing</strong> mengatur jarak antara batas sel yang berdekatan. <br>
+    <strong>Catatan :</strong> properti ini hanya berfungsi bila <strong>border-collapse</strong> diatur ke "separate". <br>
+    Tabel berikut memiliki jarak antar batas 15 piksel :
+    </p>
+    <h2>Table wiht border-spacing properties</h2>
+    <table id="tabel1">
+        <tr>
+            <th>Fristname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Petrus</td>
+            <td>Lois</td>
+        </tr>
+        <tr>
+            <td>Grifon</td>
+            <td>Grifon</td>
+        </tr>
+    </table>
+
+    <h2>Menggunakan properties border-spacing: 15px 50px; <br>
+    Menggunakan properties border-collapse dengan value: separate.
+    </h2>
+    <table id="table2">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Petrus</td>
+            <td>Lois</td>
+        </tr>
+        <tr>
+            <td>Grifon</td>
+            <td>Grifon</td>
+        </tr>
+    </table>
+
+
+
+    <h2>CSS outside Table Borders ( CSS diluar batas tabel )</h2>
+    <p>Jika anda hanya menginginkan batas di sekeliling tabel ( bukan didalam ), anda menentukan properti hanya untuk elemen < table > : <strong>border</strong> </p>
+    <h2>Border tunggal di table</h2>
+    <table class="table-single-border">
+        <tr>
+            <th>Fristname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>lois</td>
+        </tr>
+        <tr>
+            <td>Griffin</td>
+            <td>Griffin</td>
+        </tr>
+    </table>
+
     
 </body>
 </html>
