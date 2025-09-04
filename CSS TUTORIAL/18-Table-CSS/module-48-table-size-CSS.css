@@ -1,3 +1,47 @@
-table, td, th {
+/* Table 100% */
+.table-100, .table-td, .table-td {
     border: 1px solid black;
 }
+
+.table-100 {
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+/* Table 50% */
+.table-50, td, th {
+    border: 1px solid green;
+}
+
+.table-50 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/* Table 500px */
+.table-500px, td, th {
+    border: 2px solid blue;
+}
+
+.table-500px {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+/* Table auto */
+.table-auto, td, th { border: 3px solid; }
+
+.table-auto {
+    border-collapse: collapse;
+    width: auto;
+}
+
+/* Table height */
+.table-height, td, th { border: 1px solid black; }
+
+.table-height {
+    border-collapse: collpase;
+    width: 100%;
+}
+
+.table-height-th { height: 70px; }
