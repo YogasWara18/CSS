@@ -19,3 +19,16 @@
 }
 
 .table-text-align-left, th, td { text-align: left !important; }
+
+/* Table dengan properti vertical-align */
+.table-vertical-align, td, th { border: 1px solid blue; }
+
+.table-vertical-align {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-vertical-align, td { 
+    height: 50px;
+    vertical-align: bottom;
+}
