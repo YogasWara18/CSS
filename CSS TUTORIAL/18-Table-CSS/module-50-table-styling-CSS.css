@@ -1,0 +1,25 @@
+.table-styling1 table, .table-styling1 td, .table-styling1 th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-styling1 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-styling1 th, .table-styling1 td {
+    padding: 10px;
+}
+
+/* Table Dividers ( Table Pembagi ) */
+.table-dividers2 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-dividers2 th, .table-dividers2 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid red;
+}
