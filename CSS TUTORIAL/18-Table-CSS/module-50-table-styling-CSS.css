@@ -8,9 +8,7 @@
     width: 100%;
 }
 
-.table-styling1 th, .table-styling1 td {
-    padding: 10px;
-}
+.table-styling1 th, .table-styling1 td { padding: 10px; }
 
 /* Table Dividers ( Table Pembagi ) */
 .table-dividers2 table {
@@ -36,6 +34,35 @@
     border-bottom: 1px solid #ddd;
 }
 
-.table-hover tr:hover {
-    background-color: coral;
+.table-hover tr:hover { background-color: coral; }
+
+/* Table Zebra Striped */
+.table-zebra-striped table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-zebra-striped th, .table-zebra-striped td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table-zebra-striped tr:nth-child(even) { background-color: #9c9393; }
+
+/* Table color header */
+.table-color-header table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-color-header th, .table-color-header td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table-color-header tr:nth-child(even) { background-color: #f3f3f3; }
+
+.table-color-header th {
+    background-color: #04AA6D;
+    color: white;
 }
