@@ -44,42 +44,66 @@
     <h2>Common display values ( nilai tampilan umum )</h2>
     <p>Properti CSS <strong>display</strong> memiliki banyak nilai. Tabel berikut mencantumkan nilai - nilai yang paling umum digunakan : </p>
     
-<div class="display-value">
-    <table>
-        <tr>
-            <th>Value</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>inline</td>
-            <td>Menampilkan elemen sebagai elemen sebaris</td>
-        </tr>
-        <tr>
-            <td>block</td>
-            <td>Menampilkan elemen sebagai elemen block</td>
-        </tr>
-        <tr>
-            <td>contents</td>
-            <td>Membuat wadah menghilang menjadikan elemen anaknya sebagai anak elemen pada level berikutnya di DOM</td>
-        </tr>
-        <tr>
-            <td>flex</td>
-            <td>Menampilkan elemen sebagai wadah fleksibel tingkat block</td>
-        </tr>
-        <tr>
-            <td>grid</td>
-            <td>Menampilkan elemen sebagai wadah grid tingkat block</td>
-        </tr>
-        <tr>
-            <td>inline - block</td>
-            <td>Menampilkan elemen sebagai wadah blok tingkat inline. Elemen itu sendiri diformat sebagai elemen sebaris, tetapi anda dapat menerapkan nilai tinggi, lebar, padding, dan margin.</td>
-        </tr>
-        <tr>
-            <td>none</td>
-            <td>Elemen sepenuhnya tersembunyi dari alur dokumen ( tidak memakan tampat apa pun ).</td>
-        </tr>
-    </table>
-</div>
+        <div class="display-value">
+            <table>
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>inline</td>
+                    <td>Menampilkan elemen sebagai elemen sebaris</td>
+                </tr>
+                <tr>
+                    <td>block</td>
+                    <td>Menampilkan elemen sebagai elemen block</td>
+                </tr>
+                <tr>
+                    <td>contents</td>
+                    <td>Membuat wadah menghilang menjadikan elemen anaknya sebagai anak elemen pada level berikutnya di DOM</td>
+                </tr>
+                <tr>
+                    <td>flex</td>
+                    <td>Menampilkan elemen sebagai wadah fleksibel tingkat block</td>
+                </tr>
+                <tr>
+                    <td>grid</td>
+                    <td>Menampilkan elemen sebagai wadah grid tingkat block</td>
+                </tr>
+                <tr>
+                    <td>inline - block</td>
+                    <td>Menampilkan elemen sebagai wadah blok tingkat inline. Elemen itu sendiri diformat sebagai elemen sebaris, tetapi anda dapat menerapkan nilai tinggi, lebar, padding, dan margin.</td>
+                </tr>
+                <tr>
+                    <td>none</td>
+                    <td>Elemen sepenuhnya tersembunyi dari alur dokumen ( tidak memakan tampat apa pun ).</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <h2>CSS Display : none ;</h2>
+        <p>Saat menggunakan <strong>display: none;</strong> elemen tersebut sepenuhnya tersembunyi dari aliran dokumen dan tidak memakan tempat apa pun. <br> <br>
+        Umumnya digunakan dengan javaScript untuk menyembunyikan atau menampilkan elemen tanpa menghapus dan membuatnya kembali. <br>
+        Contoh : <br>
+        Cara menggunakan CSS dan JavaScript untuk menampilkan elemen tersembunyi pada acara klik :
+        </p>
+
+        <p class="flip" onclick="myFunction()">Click to show panel</p>
+
+        <div id="panel">
+            <p>This panel contains a div element, which is hidden by default ( display: none )</p>
+            <p>kami menggunakan JavaScript untuk menampilkannya ( display: block ).</p>
+            <p>Cara kerjanya: saat pengguna mengklik elemen p, fungsi bernama myFunction() dijalankan, yang mengubah gaya div dengan id=panel dari display:none ( tersembunyi ) menjadi display: block ( terlihat ).</p>
+            <p>Anda akan mempelajari lebih lanjut tentang JavaScript di tutorial JavaScript.</p>
+        </div>
+
+
+        <script>
+            function myFunction() {
+                document.getElementById("panel").style.display = "block";
+            }
+        </script>
 
 </body>
-</html>
+</html> 
