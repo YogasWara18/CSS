@@ -105,5 +105,27 @@
             }
         </script>
 
+        <p>Contoh <br>
+        Cara menggunakan CSS dan JavaScript untuk beralih antara tampilkan dan sembunyikan pada acara klik :</p>
+
+        <p class="flip2" onclick="myFunction2()">Click to show/hide panel</p>
+
+        <div id="panel2">
+            <p>Panel beralih antara menyembunyikan dan menampilkan elemen div.</p>
+            <p>Kami menggunakan JavaScript untuk membuka dan menutupnya.</p>
+            <p>Anda akan mempelajari lebih lanjut tentang JavaScript di tutorial JavaScript.</p>
+        </div>
+
+        <script>
+            function myFunction2() {
+                var x = document.getElementById("panel2");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            } 
+        </script>
+
 </body>
 </html> 
