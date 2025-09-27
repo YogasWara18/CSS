@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS The Position Property</title>
+    <link rel="stylesheet" href="module-54-position-CSS.css">
+</head>
+<body>
+
+    <h1>CSS Positioning</h1>
+    <p>Penempatan CSS adalah tentang mengendalikan penempatan elemen dalam halaman web. <br> <br>
+    Dengan pemosisian CSS, Anda dapat mengesampinkan alur dokumen normal. <br>
+    </p>
+
+    <h2>Property Posisi CSS</h2>
+    <p>Properti <strong>position</strong> menentukan jenis posisi untu suatu elemen. <br>
+    Properti ini dapat memiliki salah satu nilai berikut : 
+    <ul>
+        <li><strong>static</strong> - ini adalah nilai default</li>
+        <li><strong>relative</strong></li>
+        <li><strong>fixed</strong></li>
+        <li><strong>absolute</strong></li>
+        <li><strong>sticky</strong></li>
+    </ul>
+    <br>
+    Elemen kemudian diposisikan ke lokasi akhornya dengan properti,,, dan . <strong>top</strong> <strong>bottom</strong> <strong>left</strong> <strong>right</strong>
+    </p>
+
+
+    <h2>Poisisi CSS : Static</h2>
+    <p>Semua elemen HTML diposisikan statis secara default. <br>
+    Elemen yang diposisikan statis tidak terpengaruh oleh properti atas, bawah, kiri, dan kanan. <br>
+    Elemen dengan <strong>position: static;</strong> selalu diposisikan sesuai dengan alur normal halaman : <br>
+    Berikut adalah CSS yang digunakan : <br>
+    Contoh :
+    </p>
+    <h2>Menggunakan position: static;</h2>
+    <p>elemen degan position: static; selalu diposisikan sesuai dengan aliran normal halaman :</p>
+    <div class="static">Elemen div ini memiliki property position: static;</div>
+
+
+    <h2>Posisi CSS : relative</h2>
+    <p>elemen dengan <strong>position : relative;</strong> diposisikan relatif terhadap posisi normalnya dalam alur dokumen. <br><br>
+    Mengatur properti atas, kanan, bawah, dan kiri akan menyebabkan elemen disesuaikan menjauh dari posisi normalnya. konten lainnya tidak akan disesuaikan agar muat di celah yang ditinggalkan oleh elemen. <br>
+    Berikut adalah CSS yang digunakan : <br>
+    Contoh :
+    </p>
+    <h2>Menggunakan position: relative</h2>
+    <p>Elemen dengan posisi : relative; diposisikan relative terhadap posisi normalnya :</p>
+    <div class="relative">Elemen div ini memiliki property position: relative;</div>
+    
+
+    <h2>Posisi CSS : fixed</h2>
+    <p>Elemen dengan <strong>position: fixed;</strong> diposisikan relatif terhadap viewport, yang berarti elemen tersebut akan selalu berada di tempat yang sama meskipun halaman digulir. Propery atas, kanan, bawah, dan kiri digunakan untuk menentukan lokasi akhir elemen. <br>
+    Elemen tetap tidak meningggalkan celah pada halaman tempat elemen tersebut biasanya berada <br>
+    Perhatikan elemen tetap di pojok kanan bawah halaman. Berikut CSS yang digunakan : <br>
+    Contoh :
+    </p>
+    <h2>Menggunakan position: fixed</h2>
+    <p>Elemen dengan position: fixed; diposisikan relatif terhadap viewport, yang berarti elemen tersebut selalu berada di tempat yang sama meskipun halaman digulir:</p>
+    <div class="fixed">Elemen div ini memiliki property position: fixed</div>
+
+
+    <h2>Posisi CSS: absolute</h2>
+    <p>Elemen dengan <strong>position: absolute;</strong> diposisikan relatif terhadap leluhur yang diposisikan terdekat ( dengan posisi selain statis ). <br>
+    Akan tetapi; jika elemen diposisikan absolut tidak memiliki leluhur yang diposisikan, elemen tersebut menggunakan badan dokumen, dan bergerak seiring dengan pengguliran halaman. <br>
+    <strong>Catatan :</strong> Elemen yang diposisikan absolut dihapus dari alur dokumen normal, dan dapat tumpang tindih dengan elemen lainnya. <br>
+    Berikut adalah contoh sederhananya : <br>
+    Contoh :
+    </p>
+    <h2>Menggunakan position: absolute</h2>
+    <p>Elemen dengan position: absolute diposisikan relatif terhadap leluhur terdekat yang diposisikan:</p>
+    <div class="relative2">Elemen ini memiliki property position: relative;
+        <div class="absolute">Elemen ini memiliki property position: absolute;</div>
+    </div>
+    
+
+
+</body>
+</html>

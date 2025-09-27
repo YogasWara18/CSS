@@ -1,0 +1,40 @@
+/* Property Position: static */
+.static { 
+    position: static;
+    border: 3px solid #ff0000;
+}
+
+/* Property Postition: relative */
+.relative {
+    position: relative;
+    border: 2px solid #00ff00;
+}
+
+/* Property position: fixed */
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #0000ff;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+/* Property position: absolute didalam properti relative */
+.relative2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 4px solid green;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid red;
+}
