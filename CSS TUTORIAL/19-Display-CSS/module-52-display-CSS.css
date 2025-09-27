@@ -60,3 +60,34 @@
 }
 
 .Horizontal-menu li { display: inline; }
+
+/* Merubah elemen inline span menjadi elemen block  */
+span { display: block; }
+
+
+/* Merubah elemen inine link menjadi elemen block */
+.block a { display: block; }
+
+/* Contoh nilai dari property display */
+.example-value-display p {
+    background-color: blue;
+    padding: 10px;
+}
+
+.example-value-display span {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+p.ex1 { display: none; }
+
+p.ex2 { display: inline; }
+
+p.ex3 { display: block; }
+
+p.ex4 { display: inline-block; }
+
+p.ex5 { display: flex; }
+
+p.ex6 { display: grid; }
