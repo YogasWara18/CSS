@@ -91,3 +91,16 @@ p.ex4 { display: inline-block; }
 p.ex5 { display: flex; }
 
 p.ex6 { display: grid; }
+
+
+/* Perbedaan antara display: none dan visibility: hidden */
+.imgbox {
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
+}
+
+button { width: 100%; }
