@@ -104,3 +104,28 @@ p.ex6 { display: grid; }
 }
 
 button { width: 100%; }
+
+/* Table display visibility */
+.table-display-visibility table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-display-visibility th, .table-display-visibility td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-display-visibility th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.table-display-visibility tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-display-visibility tr:hover {
+    background-color: #d2d2d2;
+}
