@@ -36,3 +36,31 @@
     top: -15px;
     height: 100px;
 }
+
+/* Example tanpa z-index */
+.container2 { position: relative; }
+
+.black-box2 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+.gray-box2 {
+    position: absolute;
+    background-color: gray;
+    height: 60px;
+    width: 40%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box2 {
+    position: absolute;
+    background-color: green;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
