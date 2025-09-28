@@ -64,3 +64,21 @@
     top: -15px;
     height: 100px;
 }
+
+/* z-index table */
+.z-index-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.z-index-table th, .z-index-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.z-index-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
