@@ -1,0 +1,28 @@
+/* Property overflow test */
+#overflowTest {
+    background: #04AA6D;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+/* Property & value oveflow: visible */
+.overflow-visible {
+    background-color: orange;
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    overflow: visible;
+}
+
+/* Property & value overflow: hidden */
+.overflow-hidden {
+    background-color: coral;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+}
