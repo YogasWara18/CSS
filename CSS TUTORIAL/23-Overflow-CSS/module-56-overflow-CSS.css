@@ -35,3 +35,22 @@
     border: 1px solid black;
     overflow: scroll;
 }
+
+/* Property & value overflow: auto */
+.overflow-auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black; 
+    overflow: auto;
+}
+
+/* Property & value overflow-x overflow-y */
+.overflow-x-y {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
