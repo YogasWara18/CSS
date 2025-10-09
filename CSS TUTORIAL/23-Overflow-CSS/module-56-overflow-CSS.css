@@ -26,3 +26,12 @@
     border: 1px solid black;
     overflow: hidden;
 }
+
+/* Property & value overflow: scroll */
+.overflow-scroll {
+    background-color: coral;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
