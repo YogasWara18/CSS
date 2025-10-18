@@ -12,3 +12,26 @@
     width: 150px;
     height: 150px;
 }
+
+.float-example-none img {
+    float: none;
+    width: 200px;
+    height: 200px;
+}
+
+.float-example-other div {
+    float: left;
+    padding: 15px;
+}
+
+.div1 {
+    background-color: red;
+}
+
+.div2 {
+    background-color: yellow;
+}
+
+.div3 {
+    background-color: green;
+}
